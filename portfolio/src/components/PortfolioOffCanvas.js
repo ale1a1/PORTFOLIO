@@ -4,7 +4,7 @@ const PortfolioOffCanvas = () => {
   return (
     <Fragment>
       <div
-        class="offcanvas offcanvas-start bg-dark"
+        class="offcanvas offcanvas-start bg-dark portfolio"
         id="portfolio"
         tabindex="-1"
         aria-labelledby="offcanvasPortfolioLabel"

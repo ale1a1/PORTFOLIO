@@ -2,3 +2,49 @@
   background-color: rgba(0, 0, 0, 0.75);
 }
 
+.bg-dark2-transparent {
+  background-color: rgba(0, 0, 0, 0.85);
+}
+
+.hide {
+  display: none;
+}
+
+.navBarToggler {
+  font-size: 0.5rem;
+}
+
+.navBarItem {
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+  .cssSmallScreens {
+    font-weight: bold;
+  }
+  .cssSmallScreensSmallerFont {
+    font-size: 1.25rem;
+  }
+  .removeOnSmallScreens {
+    display: none;
+  }
+  .showOnSmallScreen {
+    display: list-item;
+  }
+  .marginSmallScreen {
+    margin-top: 7rem;
+  }
+  .marginSmallScreen2 {
+    margin-top: 2rem;
+  }
+  .portfolio {
+    width: 100vw;
+  }
+  .footerIcons {
+    padding-left: 10rem;
+  }
+  .footerIcon {
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+}

@@ -2,13 +2,13 @@ import React from "react";
 
 const Navigation = () => {
   return (
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+    <nav class="navbar-expand-md navbar navbar-dark fixed-top navBarItem">
       <div class="container-fluid">
         <a href="#home" class="navbar-brand">
           <span class="badge bg-danger shadow">Alessandro Ladu</span>
         </a>
         <button
-          class="navbar-toggler"
+          class="navbar-toggler navBarToggler bg-dark-transparent"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarMain"
@@ -20,7 +20,7 @@ const Navigation = () => {
             class="navbar-nav me-auto mb-2 mb-lg-0"
             style={{ "z-index": "10" }}
           >
-            <li class="nav-item">
+            <li class="nav-item removeOnSmallScreens">
               <a
                 href="#info"
                 class="nav-link active"
@@ -32,19 +32,19 @@ const Navigation = () => {
                 Info
               </a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item removeOnSmallScreens">
               <a
+                data-bs-toggle="collapse"
                 href="#about"
                 role="button"
                 class="nav-link"
-                data-bs-toggle="collapse"
                 aria-expanded="false"
                 aria-controls="about"
               >
                 About
               </a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item removeOnSmallScreens">
               <a
                 href="#contact"
                 role="button"
@@ -55,6 +55,28 @@ const Navigation = () => {
               >
                 Contact
               </a>
+            </li>
+            <li class="nav-item">
+              <button
+                class="btn btn-outline-warning bg-dark2-transparent cssSmallScreens hide showOnSmallScreen marginSmallScreen"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#email"
+                aria-controls="email"
+              >
+                <i class="bi bi-envelope-open"></i>
+              </button>
+            </li>
+            <li class="nav-item">
+              <button
+                class="btn btn-outline-danger text-uppercase bg-dark2-transparent cssSmallScreens hide showOnSmallScreen marginSmallScreen2"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#portfolio"
+                aria-controls="portfolio"
+              >
+                my portfolio
+              </button>
             </li>
           </ul>
         </div>

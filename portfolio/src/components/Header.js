@@ -6,13 +6,13 @@ const Header = () => {
   return (
     <Fragment>
       <header class="container fixed-top text-end mt-5">
-        <h1 class="display-1">
+        <h1 class="display-1 cssSmallScreens">
           Hi. I am <span class="badge bg-secondary">Alex</span>
         </h1>
-        <h2 class="display-3">Web Developer</h2>
-        <div class="btn-group">
+        <h2 class="display-3 cssSmallScreens cssSmallScreensSmallerFont">Web Developer</h2>
+        <div class="btn-group margin removeOnSmallScreens">
           <button
-            class="btn btn-outline-danger text-uppercase"
+            class="btn btn-outline-danger text-uppercase bg-dark2-transparent cssSmallScreens"
             type="button"
             data-bs-toggle="offcanvas"
             data-bs-target="#portfolio"
@@ -21,7 +21,7 @@ const Header = () => {
             my portfolio
           </button>
           <button
-            class="btn btn-outline-danger"
+            class="btn btn-outline-warning bg-dark2-transparent cssSmallScreens"
             type="button"
             data-bs-toggle="offcanvas"
             data-bs-target="#email"

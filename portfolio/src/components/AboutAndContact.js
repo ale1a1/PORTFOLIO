@@ -3,7 +3,7 @@ import "../Style.css";
 
 const AboutAndContact = () => {
   return (
-    <div class="row mt-3">
+    <div class="row mt-3 removeOnSmallScreens">
       <div class="col-md-6 mt-3">
         <div class="collapse multi-collapse" id="about">
           <div class="card card-body text-start shadow bg-dark-transparent">
@@ -20,7 +20,9 @@ const AboutAndContact = () => {
           </div>
         </div>
       </div>
-      <div class="col-md-6 mt-3">
+      <div class="col-md-6 mt-3 removeOnSmallScreens {
+    display: none;
+  }">
         <div class="collapse multi-collapse" id="contact">
           <div class="card card-body text-start shadow bg-dark-transparent">
             <h5 class="card-title text-danger ">Contact</h5>

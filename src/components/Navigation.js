@@ -1,4 +1,5 @@
 import React from "react";
+import "../Style.css";
 
 const Navigation = () => {
   return (
@@ -56,26 +57,38 @@ const Navigation = () => {
                 Contact
               </a>
             </li>
+
             <li class="nav-item">
               <button
-                class="btn btn-outline-warning bg-dark2-transparent cssSmallScreens hide showOnSmallScreen marginSmallScreen"
+                class="btn btn-outline-success text-uppercase bg-dark2-transparent cssSmallScreens hide showOnSmallScreen marginSmallScreen sizeSmallScreen"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#aboutAndContact"
+                aria-controls="aboutAndContact"
+              >
+                info
+              </button>
+            </li>
+            <li class="nav-item">
+              <button
+                class="btn btn-outline-danger text-uppercase bg-dark2-transparent cssSmallScreens hide showOnSmallScreen marginSmallScreen2 sizeSmallScreen"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#portfolio"
+                aria-controls="portfolio"
+              >
+                portfolio
+              </button>
+            </li>
+            <li class="nav-item">
+              <button
+                class="btn btn-outline-warning bg-dark2-transparent cssSmallScreens hide showOnSmallScreen marginSmallScreen2 sizeSmallScreen"
                 type="button"
                 data-bs-toggle="offcanvas"
                 data-bs-target="#email"
                 aria-controls="email"
               >
                 <i class="bi bi-envelope-open"></i>
-              </button>
-            </li>
-            <li class="nav-item">
-              <button
-                class="btn btn-outline-danger text-uppercase bg-dark2-transparent cssSmallScreens hide showOnSmallScreen marginSmallScreen2"
-                type="button"
-                data-bs-toggle="offcanvas"
-                data-bs-target="#portfolio"
-                aria-controls="portfolio"
-              >
-                my portfolio
               </button>
             </li>
           </ul>

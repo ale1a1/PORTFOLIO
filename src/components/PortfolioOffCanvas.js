@@ -5,70 +5,81 @@ const PortfolioOffCanvas = () => {
   return (
     <Fragment>
       <div
-        class="offcanvas offcanvas-start bg-dark portfolio"
+        className="offcanvas offcanvas-start bg-dark portfolio"
         id="portfolio"
-        tabindex="-1"
+        tabIndex="-1"
         aria-labelledby="offcanvasPortfolioLabel"
       >
-        <div class="offcanvas-header">
-          <h1 class="offcanvas-title text-danger">Portfolio</h1>
+        <div className="offcanvas-header">
+          <h1 className="offcanvas-title text-danger">Portfolio</h1>
           <button
-            class="btn-close btn-close-white"
+            className="btn-close btn-close-white"
             data-bs-dismiss="offcanvas"
             aria-label="Close"
           ></button>
         </div>
-        <div class="offcanvas-body">
+        <div className="offcanvas-body">
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex dolorem
-            laborum at suscipit odio modi, eos vero provident nulla maxime
-            itaque tempore ullam aliquam, dolore id. Quae facilis harum facere!
+            Have a look at my personal work. <br></br>
+            You will find some static and dynamic web applications, alongside
+            some small Javascript games, built using React, Html, Javascript,
+            Css, and or Bootstrap 5. <br></br>
+            I hope you will enjoy it!
           </p>
-          <ul class="list-group">
+          <ul className="list-group">
             <a
-              href="a"
-              class="
+              href="https://locum-shifts.herokuapp.com/"
+              className="
               list-group-item list-group-item-danger list-group-item-action
               mb-2
             "
             >
-              <i class="bi bi-globe2"> </i> Bio website theme
+              <i className="bi bi-globe2"> </i> Locum shifts tracker
             </a>
             <a
               href="a"
-              class="
+              className="
               list-group-item list-group-item-danger list-group-item-action
               mb-2
             "
             >
-              <i class="bi bi-globe2"></i> Business Directory Website Themes
+              <i className="bi bi-globe2"> </i> Bio website theme
             </a>
             <a
               href="a"
-              class="
+              className="
               list-group-item list-group-item-danger list-group-item-action
               mb-2
             "
             >
-              <i class="bi bi-globe2"></i> Resume Website Themes
+              <i className="bi bi-globe2"></i> Business Directory Website Themes
             </a>
             <a
               href="a"
-              class="
+              className="
               list-group-item list-group-item-danger list-group-item-action
               mb-2
             "
             >
-              <i class="bi bi-globe2"></i> Photo sharing website
+              <i className="bi bi-globe2"></i> Resume Website Themes
             </a>
             <a
               href="a"
-              class="
+              className="
               list-group-item list-group-item-danger list-group-item-action
               mb-2
             "
             >
-              <i class="bi bi-globe2"></i> E-Commerce website
+              <i className="bi bi-globe2"></i> Photo sharing website
+            </a>
+            <a
+              href="a"
+              className="
+              list-group-item list-group-item-danger list-group-item-action
+              mb-2
+            "
+            >
+              <i className="bi bi-globe2"></i> E-Commerce website
             </a>
           </ul>
         </div>

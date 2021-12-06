@@ -53,9 +53,9 @@
     width: 100vw;
     height: 70vh;
   }
-  .offCanvasInfoCard{
+  .offCanvasInfoCard {
     margin-bottom: 1rem;
-    background-color: rgba(0, 0, 0, 0.5);    
+    background-color: rgba(0, 0, 0, 0.5);
   }
   .aboutAndContact {
     width: 100vw;
@@ -86,5 +86,8 @@
     background-size: 100vw;
     background-size: 88vh;
     background-position-x: 50%;
+  }
+  .emailField{
+    margin-top: 5%;
   }
 }

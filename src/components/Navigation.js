@@ -3,28 +3,28 @@ import "../Style.css";
 
 const Navigation = () => {
   return (
-    <nav class="navbar-expand-md navbar navbar-dark fixed-top navBarItem">
-      <div class="container-fluid">
-        <a href="#home" class="navbar-brand">
-          <span class="badge bg-danger shadow">Alessandro Ladu</span>
+    <nav className="navbar-expand-md navbar navbar-dark fixed-top navBarItem">
+      <div className="container-fluid">
+        <a href="#home" className="navbar-brand">
+          <span className="badge bg-danger shadow">Alessandro Ladu</span>
         </a>
         <button
-          class="navbar-toggler navBarToggler bg-dark-transparent"
+          className="navbar-toggler navBarToggler bg-dark-transparent"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarMain"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarMain">
+        <div className="collapse navbar-collapse" id="navbarMain">
           <ul
-            class="navbar-nav me-auto mb-2 mb-lg-0"
-            style={{ "z-index": "10" }}
+            className="navbar-nav me-auto mb-2 mb-lg-0"
+            style={{ "zIndex": "10" }}
           >
-            <li class="nav-item removeOnSmallScreens">
+            <li className="nav-item removeOnSmallScreens">
               <a
                 href="#info"
-                class="nav-link active"
+                className="nav-link active"
                 data-bs-toggle="collapse"
                 data-bs-target=".multi-collapse"
                 aria-expanded="false"
@@ -33,23 +33,23 @@ const Navigation = () => {
                 Info
               </a>
             </li>
-            <li class="nav-item removeOnSmallScreens">
+            <li className="nav-item removeOnSmallScreens">
               <a
                 data-bs-toggle="collapse"
                 href="#about"
                 role="button"
-                class="nav-link"
+                className="nav-link"
                 aria-expanded="false"
                 aria-controls="about"
               >
                 About
               </a>
             </li>
-            <li class="nav-item removeOnSmallScreens">
+            <li className="nav-item removeOnSmallScreens">
               <a
                 href="#contact"
                 role="button"
-                class="nav-link"
+                className="nav-link"
                 data-bs-toggle="collapse"
                 aria-expanded="false"
                 aria-controls="contact"
@@ -58,9 +58,9 @@ const Navigation = () => {
               </a>
             </li>
 
-            <li class="nav-item">
+            <li className="nav-item">
               <button
-                class="btn btn-outline-success text-uppercase bg-dark2-transparent cssSmallScreens hide showOnSmallScreen marginSmallScreen sizeSmallScreen"
+                className="btn btn-outline-success text-uppercase bg-dark2-transparent cssSmallScreens hide showOnSmallScreen marginSmallScreen sizeSmallScreen"
                 type="button"
                 data-bs-toggle="offcanvas"
                 data-bs-target="#aboutAndContact"
@@ -69,9 +69,9 @@ const Navigation = () => {
                 info
               </button>
             </li>
-            <li class="nav-item">
+            <li className="nav-item">
               <button
-                class="btn btn-outline-danger text-uppercase bg-dark2-transparent cssSmallScreens hide showOnSmallScreen marginSmallScreen2 sizeSmallScreen"
+                className="btn btn-outline-danger text-uppercase bg-dark2-transparent cssSmallScreens hide showOnSmallScreen marginSmallScreen2 sizeSmallScreen"
                 type="button"
                 data-bs-toggle="offcanvas"
                 data-bs-target="#portfolio"
@@ -80,15 +80,15 @@ const Navigation = () => {
                 portfolio
               </button>
             </li>
-            <li class="nav-item">
+            <li className="nav-item">
               <button
-                class="btn btn-outline-warning bg-dark2-transparent cssSmallScreens hide showOnSmallScreen marginSmallScreen2 sizeSmallScreen"
+                className="btn btn-outline-warning bg-dark2-transparent cssSmallScreens hide showOnSmallScreen marginSmallScreen2 sizeSmallScreen"
                 type="button"
                 data-bs-toggle="offcanvas"
                 data-bs-target="#email"
                 aria-controls="email"
               >
-                <i class="bi bi-envelope-open"></i>
+                <i className="bi bi-envelope-open"></i>
               </button>
             </li>
           </ul>

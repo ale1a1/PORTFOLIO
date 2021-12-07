@@ -1,6 +1,5 @@
 import React, { Fragment } from "react";
 import "../Style.css";
-// import SubmitEmail from "../actions/SubmitEmail";
 
 const EmailOffCanvas = () => {
   return (
@@ -23,48 +22,58 @@ const EmailOffCanvas = () => {
           ></button>
         </div>
         <div className="offcanvas-body d-flex w-75 flex-column m-auto">
-          {/* <form className="w-100" onSubmit={SubmitEmail}> */}
-          <form className="w-100">
-            {/* Crea il backend qui per ricevere le mail */}
+          <form
+            className="w-100"
+            action="https://formsubmit.co/ale1a184@gmail.com"
+            method="POST"
+          >
             <div className="row">
               <div className="col">
                 <input
                   type="text"
+                  name="First name"
                   className="form-control"
                   placeholder="First name"
                   aria-label="First name"
-                  // required
+                  required
                 />
               </div>
               <div className="col">
                 <input
                   type="text"
+                  name="Second name"
                   className="form-control"
                   placeholder="Last name"
                   aria-label="Last name"
-                  // required
+                  required
                 />
               </div>
-              {/* <div className="col-lg row-sm emailField">
+              <div className="col-lg row-sm emailField">
                 <input
                   type="email"
+                  name="Email address"
                   className="form-control"
-                  placeholder="email"
+                  placeholder="Email address"
                   aria-label="email"
-                  // required
+                  required
                 />
-              </div> */}
+              </div>
               <div className="col-12 mt-3">
                 <textarea
+                  type="text"
+                  name="message"
                   className="w-100"
                   rows="8"
                   placeholder="Write a message"
-                  // required
+                  required
                 ></textarea>
               </div>
             </div>
             <div className="col-12">
-              <button type="submit" className="btn btn-outline-danger mt-3 w-100">
+              <button
+                type="submit"
+                className="btn btn-outline-danger mt-3 w-100"
+              >
                 Send
               </button>
             </div>

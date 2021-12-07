@@ -38,22 +38,19 @@ const AboutAndContactOffCanvas = () => {
                 <ul className="list-unstyled ms-5">
                   <li>
                     {" "}
-                    <i className="bi bi-house me-2 text-danger"></i> City: Mulargia
+                    <i className="bi bi-house me-2 text-danger"></i> City:  Liverpool
                   </li>
                   <li>
                     {" "}
-                    <i className="bi bi-signpost me-2 text-danger"></i> Street:
-                    Coddadi Street
+                    <i className="bi bi-signpost me-2 text-danger"></i> Street: Poba Road
                   </li>
                   <li>
                     {" "}
-                    <i className="bi bi-telephone me-2 text-danger"></i> Phone:
-                    2837348384384
+                    <i className="bi bi-telephone me-2 text-danger"></i> Phone:  +447481184619                    
                   </li>
                   <li>
                     {" "}
-                    <i className="bi bi-envelope me-2 text-danger"></i> Email:
-                    ale1a184@gmail.com
+                    <i className="bi bi-envelope me-2 text-danger"></i> Email:  ale1a184@gmail.com
                   </li>
                 </ul>
               </div>

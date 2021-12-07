@@ -10,11 +10,11 @@ const AboutAndContact = () => {
             <h5 className="card-title text-danger ">About</h5>
             <div className="card-text">
               <h3 className="text-white-50 ms-3">Alessandro Ladu</h3>
-              <ul className="list-unstyled ms-5">
-                <li>CEO at Pobastream</li>
+              <ul className="list-unstyled ms-2 bulletPoint">                
                 <li>Freelance Web Developer</li>
-                <li>Locum Vet Surgeon</li>
-                <li>COD player</li>
+                <li>DVM</li>
+                <li>CEO at Pobastream</li>
+                <li>Languages: HTML, JS, CSS, Sass</li>               
               </ul>
             </div>
           </div>

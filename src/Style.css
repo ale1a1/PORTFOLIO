@@ -87,7 +87,16 @@
     background-size: 88vh;
     background-position-x: 50%;
   }
-  .emailField{
+  .emailField {
     margin-top: 5%;
   }
+}
+
+.bulletPoint li::before {
+  content: "\2022";
+  color: red;
+  font-weight: bold;  
+  margin-left: 1rem; 
+  width: 1em;
+  display: inline-block; 
 }

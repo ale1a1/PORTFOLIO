@@ -24,7 +24,9 @@ const EmailOffCanvas = () => {
         <div className="offcanvas-body d-flex w-75 flex-column m-auto">
           <form
             className="w-100"
-            action="https://formsubmit.co/ale1a184@gmail.com"
+            action="https://formsubmit.co/ale1a1@libero.it"
+            // action="https://formsubmit.co/ale1a184@gmail.com"
+            // action="5964a354b4e9ce4590aee2448b7b8c24"
             method="POST"
           >
             <div className="row">

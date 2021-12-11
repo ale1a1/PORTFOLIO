@@ -13,7 +13,7 @@ const AboutAndContact = () => {
               <ul className="list-unstyled ms-2 bulletPoint">                
                 <li>Freelance Web Developer</li>
                 <li>DVM</li>
-                <li>CEO at Pobastream</li>
+                <li>CEO at A.L.W.</li>
                 <li>Languages: HTML, JS, CSS, Sass</li>               
               </ul>
             </div>
@@ -35,7 +35,7 @@ const AboutAndContact = () => {
                 </li>
                 <li>
                   {" "}
-                  <i className="bi bi-signpost me-2 text-danger"></i> Street:  Poba Road
+                  <i className="bi bi-signpost me-2 text-danger"></i> Street:  Smithdown Road
                   
                 </li>
                 <li>

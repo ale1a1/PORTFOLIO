@@ -27,7 +27,7 @@ const AboutAndContactOffCanvas = () => {
               <ul className="list-unstyled ms-2 bulletPoint">
                 <li>Freelance Web Developer</li>
                 <li>DVM</li>
-                <li>CEO at A.L.W.</li>
+                <li>CEO at A.L.W. Media</li>
                 <li>Languages: HTML, JS, CSS, Sass</li>
               </ul>
             </div>

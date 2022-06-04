@@ -20,11 +20,10 @@ const PortfolioOffCanvas = () => {
         </div>
         <div className="offcanvas-body">
           <p>
-            Have a look at my personal work. <br></br>
-            You will find some static and dynamic web applications, alongside
-            some small Javascript games, built using React, Html, Javascript,
-            Css, and or Bootstrap 5. <br></br>
-            I hope you will enjoy it!
+            Have a look at my work ! <br></br>
+            Some projects are my own work and some are created coding along the
+            tutors on the online courses I followed, using React, Html,
+            Javascript, Css, and or Bootstrap 5. <br></br>
           </p>
           <ul className="list-group">
             <a
@@ -37,13 +36,13 @@ const PortfolioOffCanvas = () => {
               <i className="bi bi-globe2"> </i> Locum shifts tracker
             </a>
             <a
-              href="a"
+              href="https://bankist-jonas-schmedtmann.herokuapp.com/"
               className="
               list-group-item list-group-item-danger list-group-item-action
               mb-2
             "
             >
-              <i className="bi bi-globe2"> </i> Bio website theme
+              <i className="bi bi-globe2"></i> Bankist
             </a>
             <a
               href="https://business-website-alw.herokuapp.com/"
@@ -54,32 +53,15 @@ const PortfolioOffCanvas = () => {
             >
               <i className="bi bi-globe2"></i> Business Directory Website Themes
             </a>
+
             <a
-              href="a"
+              href="https://bankist-website-jonas-schmedtm.herokuapp.com/"
               className="
               list-group-item list-group-item-danger list-group-item-action
               mb-2
             "
             >
-              <i className="bi bi-globe2"></i> Resume Website Themes
-            </a>
-            <a
-              href="a"
-              className="
-              list-group-item list-group-item-danger list-group-item-action
-              mb-2
-            "
-            >
-              <i className="bi bi-globe2"></i> Photo sharing website
-            </a>
-            <a
-              href="a"
-              className="
-              list-group-item list-group-item-danger list-group-item-action
-              mb-2
-            "
-            >
-              <i className="bi bi-globe2"></i> E-Commerce website
+              <i className="bi bi-globe2"></i> Bankist Website
             </a>
           </ul>
         </div>

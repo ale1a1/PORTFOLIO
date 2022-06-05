@@ -32,6 +32,8 @@ const PortfolioOffCanvas = () => {
               list-group-item list-group-item-danger list-group-item-action
               mb-2
             "
+              target="_blank"
+              rel="noreferrer"
             >
               <i className="bi bi-globe2"> </i> Locum shifts tracker
             </a>
@@ -41,6 +43,8 @@ const PortfolioOffCanvas = () => {
               list-group-item list-group-item-danger list-group-item-action
               mb-2
             "
+              target="_blank"
+              rel="noreferrer"
             >
               <i className="bi bi-globe2"></i> Bankist
             </a>
@@ -50,6 +54,8 @@ const PortfolioOffCanvas = () => {
               list-group-item list-group-item-danger list-group-item-action
               mb-2
             "
+              target="_blank"
+              rel="noreferrer"
             >
               <i className="bi bi-globe2"></i> Business Directory Website Themes
             </a>
@@ -60,6 +66,8 @@ const PortfolioOffCanvas = () => {
               list-group-item list-group-item-danger list-group-item-action
               mb-2
             "
+              target="_blank"
+              rel="noreferrer"
             >
               <i className="bi bi-globe2"></i> Bankist Website
             </a>

@@ -38,7 +38,7 @@ const PortfolioOffCanvas = () => {
               <i className="bi bi-globe2"> </i> Locum shifts tracker
             </a>
             <a
-              href="https://bankist-jonas-schmedtmann.herokuapp.com/"
+              href="https://629e10686924e5432efb1de7--merry-gingersnap-1ee2b5.netlify.app/"
               className="
               list-group-item list-group-item-danger list-group-item-action
               mb-2

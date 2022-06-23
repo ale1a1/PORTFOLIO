@@ -38,7 +38,7 @@ const PortfolioOffCanvas = () => {
               <i className="bi bi-globe2"> </i> Locum Shifts Tracker
             </a>
             <a
-              href="https://629e10686924e5432efb1de7--merry-gingersnap-1ee2b5.netlify.app/"
+              href="https://merry-gingersnap-1ee2b5.netlify.app/"
               className="
               list-group-item list-group-item-danger list-group-item-action
               mb-2
@@ -49,7 +49,7 @@ const PortfolioOffCanvas = () => {
               <i className="bi bi-globe2"></i> Bankist App
             </a>
             <a
-              href="https://62b41db5a9d96959457f56a7--merry-gingersnap-1ee2b5.netlify.app/"
+              href="https://business-website-alw.herokuapp.com/"
               className="
               list-group-item list-group-item-danger list-group-item-action
               mb-2

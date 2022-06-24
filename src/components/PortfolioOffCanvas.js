@@ -23,7 +23,7 @@ const PortfolioOffCanvas = () => {
             Have a look at my work 😊<br></br>
             Some projects are my own work and some are created coding along the
             tutors on the online courses I followed, using React, Html,
-            Javascript, Css and Bootstrap 5 😊. <br></br>
+            Javascript, Css and Bootstrap 5 😊 <br></br>
           </p>
           <ul className="list-group">
             <h6 className="mt-4 mb-2 portfolioHeader">RESPONSIVE DESIGN</h6>

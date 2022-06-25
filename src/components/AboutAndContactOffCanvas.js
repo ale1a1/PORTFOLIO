@@ -28,7 +28,7 @@ const AboutAndContactOffCanvas = () => {
                 <li>Freelance Web Developer</li>
                 <li>DVM</li>
                 <li>CEO at A.L.W. Media</li>
-                <li>Languages: HTML, JS, CSS, Sass</li>
+                <li>Languages: HTML, JS, CSS </li>
               </ul>
             </div>
           </div>

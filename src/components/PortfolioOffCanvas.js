@@ -85,6 +85,17 @@ const PortfolioOffCanvas = () => {
             >
               <i className="bi bi-globe2"></i> Bankist Website
             </a>
+            <a
+              href=" https://62b71650ca488e01c8b2990a--bejewelled-piroshki-d9065c.netlify.app/index.html"
+              className="
+              list-group-item list-group-item-danger list-group-item-action
+              mb-2
+            "
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i className="bi bi-globe2"></i> The Code Magazine
+            </a>
           </ul>
         </div>
       </div>

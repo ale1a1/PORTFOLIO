@@ -55,7 +55,7 @@
   }
   .portfolio {
     width: 100vw;
-    height: 85vh;
+    height: 95vh;
   }
   .offCanvasInfoCard {
     margin-bottom: 1rem;
@@ -75,6 +75,7 @@
     padding-top: 2%;
     padding-bottom: 2%;
     margin-bottom: -4px;
+    color: #868e96;
   }
   .footerIcons {
     padding-left: 30%;
@@ -107,4 +108,9 @@
   margin-left: 1rem;
   width: 1em;
   display: inline-block;
+}
+
+.footerH2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #ced4da;
 }

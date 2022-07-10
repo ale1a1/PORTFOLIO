@@ -11,7 +11,7 @@ const PortfolioOffCanvas = () => {
         aria-labelledby="offcanvasPortfolioLabel"
       >
         <div className="offcanvas-header">
-          <h1 className="offcanvas-title text-danger">Portfolio</h1>
+          <h1 className="offcanvas-title text-danger mt-2">Portfolio</h1>
           <button
             className="btn-close btn-close-white"
             data-bs-dismiss="offcanvas"
@@ -26,12 +26,11 @@ const PortfolioOffCanvas = () => {
             Javascript, Css and Bootstrap 5 😊 <br></br>
           </p>
           <ul className="list-group">
-            <h6 className="mt-4 mb-2 portfolioHeader">RESPONSIVE DESIGN</h6>
             <a
               href="https://locum-shifts.herokuapp.com/"
               className="
               list-group-item list-group-item-danger list-group-item-action
-              mb-2
+              mb-3 mt-4 round-corners
             "
               target="_blank"
               rel="noreferrer"
@@ -42,7 +41,7 @@ const PortfolioOffCanvas = () => {
               href="https://omnifood-alw.netlify.app/"
               className="
               list-group-item list-group-item-danger list-group-item-action
-              mb-2
+              mb-3 round-corners
             "
               target="_blank"
               rel="noreferrer"
@@ -54,7 +53,7 @@ const PortfolioOffCanvas = () => {
               href="https://business-website-alw.herokuapp.com/"
               className="
               list-group-item list-group-item-danger list-group-item-action
-              mb-2
+              mb-3 round-corners
             "
               target="_blank"
               rel="noreferrer"
@@ -66,7 +65,7 @@ const PortfolioOffCanvas = () => {
               href="https://uhost-alw.netlify.app/"
               className="
               list-group-item list-group-item-danger list-group-item-action
-              mb-2
+              mb-3 round-corners
             "
               target="_blank"
               rel="noreferrer"
@@ -78,19 +77,18 @@ const PortfolioOffCanvas = () => {
               href="https://find-users-app.netlify.app/"
               className="
               list-group-item list-group-item-danger list-group-item-action
-              mb-2
+              mb-3 round-corners
             "
               target="_blank"
               rel="noreferrer"
             >
               <i className="bi bi-globe2"> </i> Find Users App
             </a>
-            <h6 className="mt-4 mb-2 portfolioHeader">NON RESPONSIVE DESIGN</h6>
             <a
               href="https://lisbon-chairs-shop.netlify.app/"
               className="
               list-group-item list-group-item-danger list-group-item-action
-              mb-2
+              mb-3 round-corners
             "
               target="_blank"
               rel="noreferrer"
@@ -98,37 +96,15 @@ const PortfolioOffCanvas = () => {
               <i className="bi bi-globe2"></i> Lisbon Chairs Shop
             </a>
             <a
-              href="https://merry-gingersnap-1ee2b5.netlify.app/"
-              className="
-              list-group-item list-group-item-danger list-group-item-action
-              mb-2
-            "
-              target="_blank"
-              rel="noreferrer"
-            >
-              <i className="bi bi-globe2"></i> Bankist App
-            </a>
-            <a
               href="https://bankist-website-jonas-schmedtm.herokuapp.com/"
               className="
               list-group-item list-group-item-danger list-group-item-action
-              mb-2
+              mb-3 round-corners
             "
               target="_blank"
               rel="noreferrer"
             >
               <i className="bi bi-globe2"></i> Bankist Website
-            </a>
-            <a
-              href=" https://62b71650ca488e01c8b2990a--bejewelled-piroshki-d9065c.netlify.app/index.html"
-              className="
-              list-group-item list-group-item-danger list-group-item-action
-              mb-2
-            "
-              target="_blank"
-              rel="noreferrer"
-            >
-              <i className="bi bi-globe2"></i> The Code Magazine
             </a>
           </ul>
         </div>

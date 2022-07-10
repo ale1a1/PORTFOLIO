@@ -27,7 +27,7 @@ const PortfolioOffCanvas = () => {
           </p>
           <ul className="list-group">
             <a
-              href="https://locum-shifts.herokuapp.com/"
+              href="https://omnifood-alw.netlify.app/"
               className="
               list-group-item list-group-item-danger list-group-item-action
               mb-3 mt-4 round-corners
@@ -38,10 +38,10 @@ const PortfolioOffCanvas = () => {
               <i className="bi bi-globe2"> </i> Omnifood
             </a>
             <a
-              href="https://omnifood-alw.netlify.app/"
+              href="https://locum-shifts.herokuapp.com/"
               className="
               list-group-item list-group-item-danger list-group-item-action
-              mb-3 round-corners
+              mb-3  round-corners
             "
               target="_blank"
               rel="noreferrer"

@@ -7,9 +7,9 @@ const Header = () => {
     <Fragment>
       <header className="container fixed-top text-end mt-5">
         <h1 className="display-1 cssSmallScreens mt-3">
-          Hi. I am <span className="badge bg-secondary">Alex</span>
+          I am <span className="badge bg-secondary">Alex</span>
         </h1>
-        <h2 className="display-3 cssSmallScreens cssSmallScreensSmallerFont mt-3">
+        <h2 className="display-3 cssSmallScreens cssSmallScreensSmallerFont mt-5">
           Web Developer
         </h2>
         <div className="btn-group margin removeOnSmallScreens">

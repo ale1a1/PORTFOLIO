@@ -36,6 +36,17 @@ const PortfolioOffCanvas = () => {
               target="_blank"
               rel="noreferrer"
             >
+              <i className="bi bi-globe2"> </i> Omnifood
+            </a>
+            <a
+              href="https://omnifood-alw.netlify.app/"
+              className="
+              list-group-item list-group-item-danger list-group-item-action
+              mb-2
+            "
+              target="_blank"
+              rel="noreferrer"
+            >
               <i className="bi bi-globe2"> </i> Locum Shifts Tracker
             </a>
 
@@ -52,7 +63,7 @@ const PortfolioOffCanvas = () => {
             </a>
 
             <a
-              href="https://62bb23cee58d5032c7aef0ea--adorable-sunburst-74416f.netlify.app/"
+              href="https://uhost-alw.netlify.app/"
               className="
               list-group-item list-group-item-danger list-group-item-action
               mb-2
@@ -64,7 +75,7 @@ const PortfolioOffCanvas = () => {
             </a>
 
             <a
-              href="https://funny-clafoutis-9d206c.netlify.app/"
+              href="https://find-users-app.netlify.app/"
               className="
               list-group-item list-group-item-danger list-group-item-action
               mb-2
@@ -76,7 +87,7 @@ const PortfolioOffCanvas = () => {
             </a>
             <h6 className="mt-4 mb-2 portfolioHeader">NON RESPONSIVE DESIGN</h6>
             <a
-              href="https://62bc64cb84690609d07d54b2--celebrated-macaron-25c976.netlify.app/"
+              href="https://lisbon-chairs-shop.netlify.app/"
               className="
               list-group-item list-group-item-danger list-group-item-action
               mb-2
@@ -84,7 +95,7 @@ const PortfolioOffCanvas = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <i className="bi bi-globe2"></i> Lisbon Chair Shop
+              <i className="bi bi-globe2"></i> Lisbon Chairs Shop
             </a>
             <a
               href="https://merry-gingersnap-1ee2b5.netlify.app/"

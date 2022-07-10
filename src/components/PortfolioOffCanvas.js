@@ -38,7 +38,7 @@ const PortfolioOffCanvas = () => {
               <i className="bi bi-globe2"> </i> Omnifood
             </a>
             <a
-              href="https://locum-shifts.herokuapp.com/"
+              href="https://locum-shifts-tracker.netlify.app/"
               className="
               list-group-item list-group-item-danger list-group-item-action
               mb-3  round-corners

@@ -11,7 +11,7 @@ const PortfolioOffCanvas = () => {
         aria-labelledby="offcanvasPortfolioLabel"
       >
         <div className="offcanvas-header">
-          <h1 className="offcanvas-title text-danger mt-2">Portfolio</h1>
+          <h1 className="offcanvas-title text-danger">Portfolio</h1>
           <button
             className="btn-close btn-close-white"
             data-bs-dismiss="offcanvas"
@@ -19,7 +19,7 @@ const PortfolioOffCanvas = () => {
           ></button>
         </div>
         <div className="offcanvas-body">
-          <p>
+          <p className="mb-4 mt-3">
             Have a look at my work 😊<br></br>
             Some projects are my own work and some are created coding along the
             tutors on the online courses I followed, using React, Html,

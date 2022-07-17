@@ -85,7 +85,7 @@ const PortfolioOffCanvas = () => {
               <i className="bi bi-globe2"></i> Lisbon Chairs Shop
             </a>
             <a
-              href="https://bankist-website-jonas-schmedtm.herokuapp.com/"
+              href="https://bankist-alw.netlify.app/"
               className="
               list-group-item list-group-item-danger list-group-item-action
               mb-3 round-corners

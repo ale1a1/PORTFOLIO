@@ -54,6 +54,10 @@
   .marginSmallScreen2 {
     margin-top: 2rem;
   }
+  .marginSmallScreen3 {
+    margin-top: 9rem;
+  }
+
   .sizeSmallScreen {
     font-size: 0.85rem;
   }

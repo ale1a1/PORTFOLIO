@@ -19,7 +19,7 @@ const Navigation = () => {
         <div className="collapse navbar-collapse" id="navbarMain">
           <ul
             className="navbar-nav me-auto mb-2 mb-lg-0"
-            style={{ "zIndex": "10" }}
+            style={{ zIndex: "10" }}
           >
             <li className="nav-item removeOnSmallScreens">
               <a
@@ -60,24 +60,24 @@ const Navigation = () => {
 
             <li className="nav-item">
               <button
-                className="btn btn-outline-success text-uppercase bg-dark2-transparent cssSmallScreens hide showOnSmallScreen marginSmallScreen sizeSmallScreen"
-                type="button"
-                data-bs-toggle="offcanvas"
-                data-bs-target="#aboutAndContact"
-                aria-controls="aboutAndContact"
-              >
-                info
-              </button>
-            </li>
-            <li className="nav-item">
-              <button
-                className="btn btn-outline-danger text-uppercase bg-dark2-transparent cssSmallScreens hide showOnSmallScreen marginSmallScreen2 sizeSmallScreen"
+                className="btn btn-outline-danger text-uppercase bg-dark2-transparent cssSmallScreens hide showOnSmallScreen marginSmallScreen3 sizeSmallScreen"
                 type="button"
                 data-bs-toggle="offcanvas"
                 data-bs-target="#portfolio"
                 aria-controls="portfolio"
               >
                 portfolio
+              </button>
+            </li>
+            <li>
+              <button
+                className="btn btn-outline-success text-uppercase bg-dark2-transparent cssSmallScreens hide showOnSmallScreen marginSmallScreen2 sizeSmallScreen"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#aboutAndContact"
+                aria-controls="aboutAndContact"
+              >
+                info
               </button>
             </li>
             <li className="nav-item">

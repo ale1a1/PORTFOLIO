@@ -35,6 +35,15 @@
   border-radius: 5px;
 }
 
+.offCanvasInfoCard {
+  margin-bottom: 1rem;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.offCanvasPortfolioInfoCard {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
 @media only screen and (max-width: 600px) {
   .cssSmallScreens {
     font-weight: bold;
@@ -67,6 +76,10 @@
   }
   .offCanvasInfoCard {
     margin-bottom: 1rem;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .offCanvasPortfolioInfoCard {
+    margin-top: 2rem;
     background-color: rgba(0, 0, 0, 0.5);
   }
   .offcanvas-header {

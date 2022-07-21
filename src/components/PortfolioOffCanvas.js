@@ -35,7 +35,8 @@ const PortfolioOffCanvas = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <i className="bi bi-globe2"> </i> Omnifood
+              <i className="bi bi-globe2"> </i>{" "}
+              <span className="ms-3">Omnifood website</span>
             </a>
 
             <a
@@ -47,7 +48,8 @@ const PortfolioOffCanvas = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <i className="bi bi-globe2"></i> Business Directory Website Themes
+              <i className="bi bi-globe2"></i>
+              <span className="ms-3">Business Directory website</span>
             </a>
 
             <a
@@ -59,7 +61,8 @@ const PortfolioOffCanvas = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <i className="bi bi-globe2"></i> uHost Website
+              <i className="bi bi-globe2"></i>
+              <span className="ms-3">uHost website</span>
             </a>
 
             <a
@@ -71,7 +74,8 @@ const PortfolioOffCanvas = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <i className="bi bi-globe2"> </i> Find Users App
+              <i className="bi bi-globe2"> </i>
+              <span className="ms-3">Find Users app</span>
             </a>
             <a
               href="https://lisbon-chairs-shop.netlify.app/"
@@ -82,7 +86,8 @@ const PortfolioOffCanvas = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <i className="bi bi-globe2"></i> Lisbon Chairs Shop
+              <i className="bi bi-globe2"></i>
+              <span className="ms-3">Lisbon Chairs Shop website</span>
             </a>
             <a
               href="https://bankist-alw.netlify.app/"
@@ -93,7 +98,8 @@ const PortfolioOffCanvas = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <i className="bi bi-globe2"></i> Bankist Website
+              <i className="bi bi-globe2"></i>
+              <span className="ms-3">Bankist website</span>
             </a>
           </ul>
         </div>

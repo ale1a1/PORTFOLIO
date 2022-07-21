@@ -39,7 +39,7 @@ const PortfolioOffCanvas = () => {
             </a>
 
             <a
-              href="https://business-website-alw.herokuapp.com/"
+              href="https://business-directory-alw.netlify.app/"
               className="
               list-group-item list-group-item-danger list-group-item-action
               mb-3 round-corners

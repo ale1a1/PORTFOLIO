@@ -10,7 +10,7 @@ const Header = () => {
           I am <span className="badge bg-secondary">Alex</span>
         </h1>
         <h2 className="display-3 cssSmallScreens cssSmallScreensSmallerFont mt-5">
-          Front End Developer
+          Web Developer
         </h2>
         <div className="btn-group margin removeOnSmallScreens">
           <button

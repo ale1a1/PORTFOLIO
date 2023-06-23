@@ -1,11 +1,11 @@
-.bodyCss {
+body {
   background-image: url("../src/Background2.jpg");
-  background-repeat: no-repeat;
+  background-repeat:no-repeat;
 }
 
-.backgroundPic {
+/* .backgroundPic {
   height: "10vh";
-}
+} */
 
 .bg-dark-transparent {
   background-color: rgba(0, 0, 0, 0.75);
@@ -14,6 +14,8 @@
 .bg-dark2-transparent {
   background-color: rgba(0, 0, 0, 0.85);
 }
+
+
 
 .hide {
   display: none;
@@ -94,10 +96,12 @@
   display: inline-block;
 }
 
-.footerH2 {
+footer {
+  background-color: rgba(0, 0, 0, 1);
   font-family: Georgia, "Times New Roman", Times, serif;
-  color: #ced4da;
+  color: #ced4dac9
 }
+
 
 
 

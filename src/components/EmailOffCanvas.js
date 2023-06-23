@@ -9,11 +9,11 @@ const EmailOffCanvas = () => {
         tabIndex="-1"
         id="email"
         aria-labelledby="offcanvasEmaillabel"
-        style={{ height: "62.5vh" }}
+        style={{ height: "60.5vh" }}
       >
-        <div className="offcanvas-header">
-          <h1 className="offcanvas-title text-danger" id="offcanvasEmaillabel">
-            Email
+        <div className="offcanvas-header px-4">
+          <h1 className="offcanvas-title text-danger email-h1" id="offcanvasEmaillabel">
+            Email me !
           </h1>
           <button
             className="btn-close btn-close-white"
@@ -29,7 +29,7 @@ const EmailOffCanvas = () => {
             // action="5964a354b4e9ce4590aee2448b7b8c24"
             method="POST"
           >
-            <div className="row">
+            <div className="row mt-5">
               <div className="col">
                 <input
                   type="text"
@@ -64,17 +64,17 @@ const EmailOffCanvas = () => {
                 <textarea
                   type="text"
                   name="message"
-                  className="w-100"
+                  className="w-100 p-2"
                   rows="8"
                   placeholder="Write a message"
                   required
                 ></textarea>
               </div>
             </div>
-            <div className="col-12">
+            <div className="col-1">
               <button
                 type="submit"
-                className="btn btn-outline-danger mt-3 w-100"
+                className="btn btn-outline-danger mt-3"
               >
                 Send
               </button>

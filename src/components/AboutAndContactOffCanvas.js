@@ -45,7 +45,7 @@ const AboutAndContactOffCanvas = () => {
                 <li>
                   {" "}
                   <i className="bi bi-signpost me-2 text-danger"></i> Street:
-                  Smithdown Road
+                  Front End Developers Street
                 </li>
                 <li>
                   {" "}

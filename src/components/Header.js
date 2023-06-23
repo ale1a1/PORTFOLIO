@@ -5,16 +5,16 @@ import "../Style.css";
 const Header = () => {
   return (
     <Fragment>
-      <header className="container fixed-top text-end mt-5">
-        <h1 className="display-1 cssSmallScreens mt-3">
+      <header className="fixed-top text-end mt-5 headerContainer">
+        <h1 className="display-3 cssSmallScreens mt-5 headerH1">
           I am <span className="badge bg-secondary">Alex</span>
         </h1>
-        <h2 className="display-3 cssSmallScreens cssSmallScreensSmallerFont mt-5">
-          Web Developer
+        <h2 className="display-3 cssSmallScreens cssSmallScreensSmallerFont headerH2 mt-5">
+          Front End Developer
         </h2>
-        <div className="btn-group margin removeOnSmallScreens">
+        <div className="removeOnSmallScreens headerButtons mt-5">
           <button
-            className="btn btn-outline-danger text-uppercase bg-dark2-transparent cssSmallScreens mt-5 me-2 round-corners"
+            className="btn btn-lg btn-outline-danger text-uppercase bg-dark2-transparent cssSmallScreens mt-5 me-5"
             type="button"
             data-bs-toggle="offcanvas"
             data-bs-target="#portfolio"
@@ -23,7 +23,7 @@ const Header = () => {
             portfolio
           </button>
           <button
-            className="btn btn-outline-warning bg-dark2-transparent cssSmallScreens mt-5 round-corners"
+            className="btn btn-lg btn-outline-warning bg-dark2-transparent cssSmallScreens mt-5"
             type="button"
             data-bs-toggle="offcanvas"
             data-bs-target="#email"

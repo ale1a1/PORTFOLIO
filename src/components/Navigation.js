@@ -16,7 +16,7 @@ const Navigation = () => {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse navbarList me-5" id="navbarMain">
+        <div className="collapse navbar-collapse navbarList me-3" id="navbarMain">
           <ul
             className="navbar-nav me-auto mb-2 mb-lg-0"
             style={{ zIndex: "10" }}

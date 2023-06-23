@@ -11,10 +11,14 @@ const AboutAndContact = () => {
             <div className="card-text">
               <h3 className="text-white-50 ms-3">Alessandro Ladu</h3>
               <ul className="list-unstyled ms-2 bulletPoint">
-                <li>Front End Developer</li>
-                <li>DVM</li>
-                <li>CEO at A.L.W. Media</li>
-                <li>Languages: HTML, JS, CSS</li>
+                <li>Languages: HTML, CSS, Sass, JavaScript, TypeScript</li>
+                <li>Frameworks: React, Angular, Svelte-kit, Bootstrap, Tailwind CSS  </li>
+                <li>Design tools: Figma, Webflow, MockFlow</li>
+                <li>Database: Firebase, SQL (MySQL, SSMS)</li>
+                <li>Collaboration Tools: Airtable, Confluence, Trello</li>
+                <li>Cloud platforms: Heroku, Netlify</li>
+                <li>Version control systems: Git, GitHub, GitLab</li>
+                <li>IDE: VS Code</li>
               </ul>
             </div>
           </div>

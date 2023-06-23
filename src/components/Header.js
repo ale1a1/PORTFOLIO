@@ -32,7 +32,7 @@ const Header = () => {
             <i className="bi bi-envelope-open"></i>
           </button>
         </div>
-        <AboutAndContact />
+        {/* <AboutAndContact /> */}
       </header>
     </Fragment>
   );

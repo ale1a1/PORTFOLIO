@@ -19,6 +19,14 @@
   display: none;
 }
 
+.aboutAndContact {
+  position: fixed;
+  top:32rem;
+  left:18rem;
+  min-width: 60%;
+  min-height: 80%;
+}
+
 .navBarToggler {
   font-size: 0.5rem;
 }
@@ -37,16 +45,17 @@
 
 .headerContainer {
   margin-top: 7rem !important;
-  margin-right: 10rem !important;  
+  margin-right: 11rem !important;  
 }
 
 .headerH1 {
-  font-family:cursive !important;
+  /* font-family:cursive !important; */
   margin-right: 10rem;
 }
 
 .headerH2 {
-  font-family:cursive !important;
+  /* font-family:cursive !important; */
+  font-style: italic;
   margin-top: 7rem !important;
 }
 

@@ -11,7 +11,7 @@ const AboutAndContact = () => {
             <div className="card-text">
               <h3 className="text-white-50 ms-3">Alessandro Ladu</h3>
               <ul className="list-unstyled ms-2 bulletPoint">
-                <li>Freelance Web Developer</li>
+                <li>Front End Developer</li>
                 <li>DVM</li>
                 <li>CEO at A.L.W. Media</li>
                 <li>Languages: HTML, JS, CSS</li>

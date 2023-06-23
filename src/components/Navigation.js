@@ -3,7 +3,7 @@ import "../Style.css";
 
 const Navigation = () => {
   return (
-    <nav className="navbar-expand-md navbar navbar-dark fixed-top navBarItem">
+    <nav className="navbar-expand-md navbar navbar-dark fixed-top">
       <div className="container-fluid">
         <a href="#home" className="navbar-brand">
           <span className="badge bg-danger shadow">Alessandro Ladu</span>
@@ -16,15 +16,15 @@ const Navigation = () => {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse navbarList me-3" id="navbarMain">
+        <div className="collapse navbar-collapse navbarList me-4 mt-2" id="navbarMain">
           <ul
-            className="navbar-nav me-auto mb-2 mb-lg-0"
+            className="navbar-nav me-auto mb-2"
             style={{ zIndex: "10" }}
           >
             <li className="nav-item removeOnSmallScreens">
               <a
                 href="#info"
-                className="nav-link active"
+                className="nav-link navBarItem me-1 btn btn-sm btn-outline-dark btn-success"
                 data-bs-toggle="collapse"
                 data-bs-target=".multi-collapse"
                 aria-expanded="false"
@@ -37,8 +37,7 @@ const Navigation = () => {
               <a
                 data-bs-toggle="collapse"
                 href="#about"
-                role="button"
-                className="nav-link"
+                className="nav-link navBarItem me-1 btn btn-sm btn-outline-dark btn-light"
                 aria-expanded="false"
                 aria-controls="about"
               >
@@ -48,8 +47,7 @@ const Navigation = () => {
             <li className="nav-item removeOnSmallScreens">
               <a
                 href="#contact"
-                role="button"
-                className="nav-link"
+                className="nav-link navBarItem btn btn-sm btn-outline-dark btn-danger"
                 data-bs-toggle="collapse"
                 aria-expanded="false"
                 aria-controls="contact"

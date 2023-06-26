@@ -1,6 +1,7 @@
 body {
   background-image: url("../src/Background2.jpg");
   background-repeat:no-repeat;
+  background-size: 50vw 100vh;
 }
 
 /* .backgroundPic {
@@ -110,12 +111,47 @@ footer {
 /* //////////////////////////////////////////////// MEDIA QUERIES ///////////////////////////////////////////////// */
 
 
+
+
 /**************************/
-/* BELOW 1344px (Smaller desktops) */
+/* BELOW 1370px (Smaller desktops/small laptop) */
 /**************************/
 
-@media (max-width: 84em) {
-  
+@media (max-width: 86em) {
+    .aboutAndContact {
+      position: fixed;
+      top:15rem;
+      left:8.5rem;
+      min-width: 70%;
+      min-height: 80%;
+    }
+
+    .headerContainer {
+      margin-top: 7rem !important;
+      margin-right: 7rem !important;  
+    }
+    
+    .headerH1 {
+      /* font-family:cursive !important; */
+      margin-right: 10rem;
+      font-size: 3rem;
+    }
+    
+    .headerH2 {
+      /* font-family:cursive !important; */
+      font-style: italic;
+      font-size: 3rem;
+      margin-top: 5rem !important;
+    }
+    
+    .headerButtons {
+      margin-right: 0rem !important;
+      margin-top: 3.5rem !important;
+    }
+
+    footer h2{
+     
+    }
 }
 
 /**************************/

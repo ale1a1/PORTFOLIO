@@ -27,7 +27,7 @@ body {
 .aboutAndContact {
   position: fixed;
   top:32rem;
-  left:18rem;
+  left:18.7rem;
   min-width: 60%;
   min-height: 80%;
 }
@@ -54,7 +54,7 @@ body {
 }
 
 .headerContainer {
-  margin-top: 7rem !important;
+  margin-top: 8.5rem !important;
   margin-right: 11rem !important;  
 }
 
@@ -71,7 +71,7 @@ body {
 
 .headerButtons {
   margin-right: 1rem !important;
-  margin-top: 5.5rem !important;
+  margin-top: 10rem !important;
 }
 
 

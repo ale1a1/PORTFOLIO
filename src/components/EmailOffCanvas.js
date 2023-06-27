@@ -5,14 +5,13 @@ const EmailOffCanvas = () => {
   return (
     <Fragment>
       <div
-        className="offcanvas offcanvas-bottom bg-dark"
+        className="offcanvas offcanvas-end bg-dark w-25 emailOffCanvas"
         tabIndex="-1"
         id="email"
-        aria-labelledby="offcanvasEmaillabel"
-        style={{ height: "60.5vh" }}
+        aria-labelledby="offcanvasEmaillabel"        
       >
-        <div className="offcanvas-header px-4">
-          <h1 className="offcanvas-title text-danger email-h1" id="offcanvasEmaillabel">
+        <div className="offcanvas-header">
+          <h1 className="offcanvas-title text-danger" id="offcanvasEmaillabel">
             Email me !
           </h1>
           <button
@@ -21,7 +20,7 @@ const EmailOffCanvas = () => {
             aria-label="Close"
           ></button>
         </div>
-        <div className="offcanvas-body d-flex w-75 flex-column m-auto">
+        <div className="offcanvas-body d-flex flex-column m-auto">
           <form
             className="w-100"
             action="https://formsubmit.co/ale1a1@libero.it"

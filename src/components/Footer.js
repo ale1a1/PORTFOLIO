@@ -11,7 +11,7 @@ const Footer = () => {
     "
     >
       <div className="row align-items-center px-3">
-        <h2 className="col fs-5 ms-xs-auto ms-sm-auto ms-lg-5 mt-2">
+        <h2 className="col fs-5 ms-xs-auto ms-sm-auto ms-lg-5 mt-2 footerH2">
           “ Creativity is nothing but the way to solve new problems ... ”
         </h2>
         <div className="col ms-2 text-muted mt-sm-4 fs-4 footerIcons">

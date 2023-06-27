@@ -16,8 +16,8 @@ body {
   background-color: rgba(0, 0, 0, 0.85);
 }
 
-.email-h1 {
-  margin-left: 14rem;
+.emailOffCanvas {
+  height: auto !important;
 }
 
 .hide {
@@ -149,9 +149,6 @@ footer {
       margin-top: 3.5rem !important;
     }
 
-    footer h2{
-     
-    }
 }
 
 /**************************/

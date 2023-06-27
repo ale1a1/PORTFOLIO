@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import AboutAndContact from "./AboutAndContact";
+// import AboutAndContact from "./AboutAndContact";
 import "../Style.css";
 
 const Header = () => {

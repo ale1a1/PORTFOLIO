@@ -5,7 +5,7 @@ const EmailOffCanvas = () => {
   return (
     <Fragment>
       <div
-        className="offcanvas offcanvas-end bg-dark w-25 emailOffCanvas"
+        className="offcanvas offcanvas-end bg-dark w-50 emailOffCanvas"
         tabIndex="-1"
         id="email"
         aria-labelledby="offcanvasEmaillabel"        

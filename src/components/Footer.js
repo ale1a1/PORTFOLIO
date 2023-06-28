@@ -17,27 +17,27 @@ const Footer = () => {
         <div className="col ms-2 text-muted mt-sm-4 fs-4 footerIcons">
           <ul className="list-unstyled d-flex flex-row justify-content-around px-5 me-1">
             <li>
-              <a href="https://www.instagram.com/ale1a184/">
+              <a href="https://www.instagram.com/ale1a184/" target="blank">
                 <i className="bi bi-instagram text-white-50 footerIcon"></i>
               </a>
             </li>
             <li>
-              <a href="https://www.linkedin.com/in/alessandro-ladu-69196a239/">
+              <a href="https://www.linkedin.com/in/alessandro-ladu-69196a239/" target="blank">
                 <i className="bi bi-linkedin text-white-50 footerIcon"></i>
               </a>
             </li>
             <li>
-              <a href="https://github.com/ale1a1">
+              <a href="https://github.com/ale1a1" target="blank">
                 <i className="bi bi-github text-white-50 footerIcon"></i>
               </a>
             </li>
             <li>
-              <a href="https://www.youtube.com/">
+              <a href="https://www.youtube.com/" target="blank">
                 <i className="bi bi-youtube text-white-50 footerIcon"></i>
               </a>
             </li>         
             <li>
-              <a href="https://www.twitch.tv/">
+              <a href="https://www.twitch.tv/" target="blank">
                 <i className="bi bi-twitch text-white-50 footerIcon"></i>
               </a>
             </li>

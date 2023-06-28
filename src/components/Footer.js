@@ -22,7 +22,7 @@ const Footer = () => {
               </a>
             </li>
             <li>
-              <a href="https://www.linkedin.com/feed/?trk=onboarding-landing">
+              <a href="https://www.linkedin.com/in/alessandro-ladu-69196a239/">
                 <i className="bi bi-linkedin text-white-50 footerIcon"></i>
               </a>
             </li>
@@ -35,12 +35,7 @@ const Footer = () => {
               <a href="https://www.youtube.com/">
                 <i className="bi bi-youtube text-white-50 footerIcon"></i>
               </a>
-            </li>
-            <li>
-              <a href="https://twitter.com/AleLadu84">
-                <i className="bi bi-twitter text-white-50 footerIcon"></i>
-              </a>
-            </li>
+            </li>         
             <li>
               <a href="https://www.twitch.tv/">
                 <i className="bi bi-twitch text-white-50 footerIcon"></i>

@@ -16,9 +16,9 @@ const Navigation = () => {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse navbarList me-4 mt-2" id="navbarMain">
+        <div className="collapse navbar-collapse mt-2" id="navbarMain">
           <ul
-            className="navbar-nav me-auto mb-2"
+            className="navbar-nav align-items-end bg-danger"
             style={{ zIndex: "10" }}
           >
             <li className="nav-item removeOnSmallScreens">
@@ -55,21 +55,21 @@ const Navigation = () => {
                 Contact
               </a>
             </li>
-
+{/* //////////////////////////////////////////////////////////////////////////////////////// small screen */}
             <li className="nav-item">
               <button
-                className="btn btn-outline-danger text-uppercase bg-dark2-transparent cssSmallScreens hide showOnSmallScreen marginSmallScreen3 sizeSmallScreen"
+                className="btn btn-outline-warning bg-dark2-transparent float-right"
                 type="button"
                 data-bs-toggle="offcanvas"
-                data-bs-target="#portfolio"
-                aria-controls="portfolio"
+                data-bs-target="#email"
+                aria-controls="email"
               >
-                portfolio
+                <i className="bi bi-envelope-open"></i>
               </button>
             </li>
             <li>
               <button
-                className="btn btn-outline-success text-uppercase bg-dark2-transparent cssSmallScreens hide showOnSmallScreen marginSmallScreen2 sizeSmallScreen"
+                className="btn btn-outline-success text-uppercase bg-dark2-transparent float-right"
                 type="button"
                 data-bs-toggle="offcanvas"
                 data-bs-target="#aboutAndContact"
@@ -80,13 +80,13 @@ const Navigation = () => {
             </li>
             <li className="nav-item">
               <button
-                className="btn btn-outline-warning bg-dark2-transparent cssSmallScreens hide showOnSmallScreen marginSmallScreen2 sizeSmallScreen"
+                className="btn btn-outline-danger text-uppercase bg-dark2-transparent float-right"
                 type="button"
                 data-bs-toggle="offcanvas"
-                data-bs-target="#email"
-                aria-controls="email"
+                data-bs-target="#portfolio"
+                aria-controls="portfolio"
               >
-                <i className="bi bi-envelope-open"></i>
+                portfolio
               </button>
             </li>
           </ul>

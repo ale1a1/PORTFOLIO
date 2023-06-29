@@ -5,14 +5,14 @@ import "../Style.css";
 const Header = () => {
   return (
     <Fragment>
-      <header className="fixed-top text-end mt-5 headerContainer">
-        <h1 className="display-3 cssSmallScreens mt-5 headerH1">
+      <header className="">
+        <h1 className="d-none">
           I am <span className="badge bg-secondary">Alex</span>
         </h1>
-        <h2 className="display-3 cssSmallScreens cssSmallScreensSmallerFont headerH2 mt-5">
+        <h2 className="mt-5 display-3 text-center bg-secondary">
           Front End Developer
         </h2>
-        <div className="removeOnSmallScreens headerButtons mt-5">
+        <div className="d-none">
           <button
             className="btn btn-lg btn-outline-danger text-uppercase bg-dark2-transparent cssSmallScreens mt-5 me-5"
             type="button"

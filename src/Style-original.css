@@ -1,67 +1,8 @@
 body {
   background-image: url("../src/Background2.jpg");
   background-repeat:no-repeat;
-  background-size: 100vw;
-  background-size: 88vh;
-  background-position-x: 50%;
+  background-size: 50vw 100vh;
 }
-
-/* ////////////////////////////// header ////////////////////////////// */
-.headerContainer {
-  margin-top: rem !important;
-  margin-right: 11rem !important;  
-}
-
-.headerH1 {
-  /* font-family:cursive !important; */
-  margin-right: 10rem;
-}
-
-.headerH2 {
-  /* font-family:cursive !important; */
-  font-style: italic;
-  margin-top: 7rem !important;
-}
-
-.headerButtons {
-  margin-right: 1rem !important;
-  margin-top: 10rem !important;
-}
-
-
-/* ////////////////////////////// footer ////////////////////////////// */
-
-
-/* // Extra small devices (portrait phones, less than 576px)
-// No media query since this is the default (as in Bootstrap) */
-
-/* // Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
-
-} 
-
-
-/* // Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-
- }
-
-/* // Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-
-}
-
-/* // Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-
-} 
-
-
-
-
-
-
-
 
 .bg-dark-transparent {
   background-color: rgba(0, 0, 0, 0.75);
@@ -109,13 +50,9 @@ body {
   color: white !important;
 }
 
-nav, ul {
-  float: right;
-}
-
-/* .navbarList {
+.navbarList {
   flex-grow: 0 !important
-} */
+}
 
 
 /* ////////////////////////////// portfolio ////////////////////////////// */
@@ -138,7 +75,30 @@ nav, ul {
 }
 
 
+/* ////////////////////////////// header ////////////////////////////// */
+.headerContainer {
+  margin-top: 8.5rem !important;
+  margin-right: 11rem !important;  
+}
 
+.headerH1 {
+  /* font-family:cursive !important; */
+  margin-right: 10rem;
+}
+
+.headerH2 {
+  /* font-family:cursive !important; */
+  font-style: italic;
+  margin-top: 7rem !important;
+}
+
+.headerButtons {
+  margin-right: 1rem !important;
+  margin-top: 10rem !important;
+}
+
+
+/* ////////////////////////////// footer ////////////////////////////// */
 
 footer {
   background-color: rgba(0, 0, 0, 1);
@@ -243,7 +203,7 @@ footer {
   .showOnSmallScreen {
     display: list-item;
   }
-  /* .marginSmallScreen {
+  .marginSmallScreen {
     margin-top: 6rem;
   }
   .marginSmallScreen2 {
@@ -251,7 +211,7 @@ footer {
   }
   .marginSmallScreen3 {
     margin-top: 9rem;
-  } */
+  }
 
   .sizeSmallScreen {
     font-size: 0.85rem;
@@ -296,15 +256,13 @@ footer {
   /* .backgroundPic {
     height: "75vh";
   } */
-
-  /* .bodyCss {
+  .bodyCss {
     background-image: url("../src/Background2.jpg");
-    background-repeat: no-repeat; */
-    /* background-size: 100vw;
+    background-repeat: no-repeat;
+    background-size: 100vw;
     background-size: 88vh;
-    background-position-x: 50%; */
-  /* } */
-
+    background-position-x: 50%;
+  }
   .emailField {
     margin-top: 5%;
   }

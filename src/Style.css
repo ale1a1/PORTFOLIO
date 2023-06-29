@@ -4,10 +4,6 @@ body {
   background-size: 50vw 100vh;
 }
 
-/* .backgroundPic {
-  height: "10vh";
-} */
-
 .bg-dark-transparent {
   background-color: rgba(0, 0, 0, 0.75);
 }
@@ -16,14 +12,16 @@ body {
   background-color: rgba(0, 0, 0, 0.85);
 }
 
-.emailOffCanvas {
-  height: auto !important;
-}
-
 .hide {
   display: none;
 }
 
+.round-corners {
+  border-radius: 5px;
+}
+
+
+/* ////////////////////////////// about and contact - info ////////////////////////////// */
 .aboutAndContact {
   position: fixed;
   top:32rem;
@@ -32,6 +30,13 @@ body {
   min-height: 80%;
 }
 
+.offCanvasInfoCard {
+  margin-bottom: 1rem;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+/* ////////////////////////////// navbar ////////////////////////////// */
 .navBarToggler {
   font-size: 0.5rem;
 }
@@ -49,10 +54,28 @@ body {
   flex-grow: 0 !important
 }
 
+
+/* ////////////////////////////// portfolio ////////////////////////////// */
 .portfolioHeader {
+  
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.offCanvasPortfolioInfoCard {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.bulletPoint li::before {
+  content: "\2022";
+  color: red;
+  font-weight: bold;
+  margin-left: 1rem;
+  width: 1em;
+  display: inline-block;
+}
+
+
+/* ////////////////////////////// header ////////////////////////////// */
 .headerContainer {
   margin-top: 8.5rem !important;
   margin-right: 11rem !important;  
@@ -75,29 +98,7 @@ body {
 }
 
 
-.round-corners {
-  border-radius: 5px;
-}
-
-.offCanvasInfoCard {
-  margin-bottom: 1rem;
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
-.offCanvasPortfolioInfoCard {
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
-
-
-.bulletPoint li::before {
-  content: "\2022";
-  color: red;
-  font-weight: bold;
-  margin-left: 1rem;
-  width: 1em;
-  display: inline-block;
-}
+/* ////////////////////////////// footer ////////////////////////////// */
 
 footer {
   background-color: rgba(0, 0, 0, 1);
@@ -106,9 +107,11 @@ footer {
 }
 
 
-
-
-/* //////////////////////////////////////////////// MEDIA QUERIES ///////////////////////////////////////////////// */
+/* ///////////////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////// **   MEDIA QUERIES  **  //////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////////////////////////////////////////////// */
 
 
 

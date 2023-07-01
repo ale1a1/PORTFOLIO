@@ -58,7 +58,7 @@ const Navigation = () => {
 {/* ///////////////////////    mobile screens  /////////////////////////////////////////////////////////////////  */}
             <div class="mt-5 row">
               <ul class="navbar-nav justify-content-end pe-1">
-                <li className="nav-item text-end mt-1">
+                <li className="nav-item text-end mt-2">
                   <button
                     className="btn btn-outline-warning bg-dark2-transparent"
                     type="button"
@@ -69,7 +69,7 @@ const Navigation = () => {
                     <i className="bi bi-envelope-open"></i>
                   </button>
                 </li>
-                <li className="nav-item text-end mt-1">
+                <li className="nav-item text-end mt-2">
                   <button
                     className="btn btn-outline-success text-uppercase bg-dark2-transparent"
                     type="button"
@@ -80,7 +80,7 @@ const Navigation = () => {
                     info
                   </button>
                 </li>
-                <li className="nav-item text-end mt-1">
+                <li className="nav-item text-end mt-2">
                   <button
                     className="btn btn-outline-danger text-uppercase bg-dark2-transparent"
                     type="button"

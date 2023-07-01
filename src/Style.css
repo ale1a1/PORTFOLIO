@@ -2,8 +2,13 @@ body {
   background-image: url("../src/Background2.jpg");
   background-repeat:no-repeat;
   background-size: 100vw;
-  background-size: 88vh;
+  background-size: 90vh;
   background-position-x: 50%;
+}
+
+footer {
+  height: 10vh;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .bg-dark-transparent {
@@ -26,6 +31,7 @@ body {
   font-size: 0.5rem;
 }
 
+/* ///////////////////////////////////////////////// all classes above are currently in use!!!!! /////////////////////////////////////////////// */
 
 
 

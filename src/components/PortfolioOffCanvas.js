@@ -18,22 +18,16 @@ const PortfolioOffCanvas = () => {
             aria-label="Close"
           ></button>
         </div>
-        <div className="offcanvas-body">
-          <div className="card card-body text-start shadow offCanvasPortfolioInfoCard">
-            <p className="mb-4 mt-3">
-              <span className="h5 mb-5"> Have a look at my work</span> 😊
-              <br></br> <br></br>
-              Some projects are my own work and some are created coding along
-              the tutors on the online courses I followed, using React, Html,
-              Javascript, Css and Bootstrap 5 😊 <br></br>
+        <div className="offcanvas-body m-auto">
+          <div className="card card-body shadow bg-dark2-transparent border border-secondary">
+            <h5>Have a look at my work 😊</h5>
+            <p className="mb-2 mt-2">
+            Some projects are my own work and some are created coding along the tutors on the online courses I followed, using React, Html, Javascript, Css and Bootstrap 5 😊 
             </p>
-            <ul className="list-group">
+            <ul className="list-group mt-4">
               <a
                 href="https://omnifood-alw.netlify.app/"
-                className="
-              list-group-item list-group-item-danger list-group-item-action
-              mb-3 mt-4 round-corners
-            "
+                className="list-group-item list-group-item-danger list-group-item-action mb-3 rounded"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -43,10 +37,7 @@ const PortfolioOffCanvas = () => {
 
               <a
                 href="https://business-directory-alw.netlify.app/"
-                className="
-              list-group-item list-group-item-danger list-group-item-action
-              mb-3 round-corners
-            "
+                className="list-group-item list-group-item-danger list-group-item-action mb-3 rounded"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -56,10 +47,7 @@ const PortfolioOffCanvas = () => {
 
               <a
                 href="https://uhost-alw.netlify.app/"
-                className="
-              list-group-item list-group-item-danger list-group-item-action
-              mb-3 round-corners
-            "
+                className="list-group-item list-group-item-danger list-group-item-action mb-3 rounded"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -69,10 +57,7 @@ const PortfolioOffCanvas = () => {
 
               <a
                 href="https://find-users-app.netlify.app/"
-                className="
-              list-group-item list-group-item-danger list-group-item-action
-              mb-3 round-corners
-            "
+                className="list-group-item list-group-item-danger list-group-item-action mb-3 rounded"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -81,10 +66,7 @@ const PortfolioOffCanvas = () => {
               </a>
               <a
                 href="https://lisbon-chairs-shop.netlify.app/"
-                className="
-              list-group-item list-group-item-danger list-group-item-action
-              mb-3 round-corners
-            "
+                className="list-group-item list-group-item-danger list-group-item-action mb-3 rounded"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -93,10 +75,7 @@ const PortfolioOffCanvas = () => {
               </a>
               <a
                 href="https://bankist-alw.netlify.app/"
-                className="
-              list-group-item list-group-item-danger list-group-item-action
-              mb-3 round-corners
-            "
+                className="list-group-item list-group-item-danger list-group-item-action mb-3 rounded"
                 target="_blank"
                 rel="noreferrer"
               >

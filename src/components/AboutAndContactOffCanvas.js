@@ -5,11 +5,10 @@ const AboutAndContactOffCanvas = () => {
   return (
     <Fragment>
       <div
-        className="offcanvas offcanvas-end bg-dark aboutAndContact"
+        className="offcanvas offcanvas-end bg-dark"
         id="aboutAndContact"
         tabIndex="-1"
         aria-labelledby="offcanvasAboutAndContactLabel"
-        style={{ height: "67.5vh" }}
       >
         <div className="offcanvas-header">
           <h1 className="offcanvas-title text-danger">Info</h1>
@@ -20,11 +19,10 @@ const AboutAndContactOffCanvas = () => {
           ></button>
         </div>
         <div className="offcanvas-body">
-          <div className="card card-body text-start shadow offCanvasInfoCard">
+          <div className="card card-body text-start shadow bg-dark2-transparent border border-secondary">
             <h5 className="card-title text-danger ">About</h5>
             <div className="card-text">
-              <h3 className="text-white-50 ms-3">Alessandro Ladu</h3>
-              <ul className="list-unstyled ms-2 bulletPoint">
+              <ul className="list-unstyled ms-2">
                 <li>Languages: HTML, CSS, Sass, JavaScript, TypeScript</li>
                 <li>Frameworks: React, Angular, Svelte-kit, Bootstrap, Tailwind CSS  </li>
                 <li>Design tools: Figma, Webflow, MockFlow</li>
@@ -36,10 +34,9 @@ const AboutAndContactOffCanvas = () => {
               </ul>
             </div>
           </div>
-          <div className="card card-body text-start shadow offCanvasInfoCard">
+          <div className="card card-body text-start shadow bg-dark2-transparent border border-secondary">
             <h5 className="card-title text-danger ">Contact</h5>
             <div className="card-text">
-              <h3 className="text-white-50 ms-3">Get in touch</h3>
               <ul className="list-unstyled ms-4">
                 <li>
                   {" "}

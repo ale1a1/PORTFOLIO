@@ -5,14 +5,14 @@ const EmailOffCanvas = () => {
   return (
     <Fragment>
       <div
-        className="offcanvas offcanvas-end bg-dark w-50 emailOffCanvas"
+        className="offcanvas offcanvas-end bg-dark"
         tabIndex="-1"
         id="email"
         aria-labelledby="offcanvasEmaillabel"        
       >
         <div className="offcanvas-header">
           <h1 className="offcanvas-title text-danger" id="offcanvasEmaillabel">
-            Email me !
+            Email me!
           </h1>
           <button
             className="btn-close btn-close-white"
@@ -20,15 +20,13 @@ const EmailOffCanvas = () => {
             aria-label="Close"
           ></button>
         </div>
-        <div className="offcanvas-body d-flex flex-column m-auto">
+        <div className="offcanvas-body d-flex flex-column justify-items-start m-auto">
           <form
             className="w-100"
-            action="https://formsubmit.co/ale1a1@libero.it"
-            // action="https://formsubmit.co/ale1a184@gmail.com"
-            // action="5964a354b4e9ce4590aee2448b7b8c24"
+            action="https://formsubmit.co/ale1a1@libero.it"         
             method="POST"
           >
-            <div className="row mt-5">
+            <div className="row">
               <div className="col">
                 <input
                   type="text"
@@ -49,7 +47,7 @@ const EmailOffCanvas = () => {
                   required
                 />
               </div>
-              <div className="col-lg row-sm emailField">
+              <div className="col-lg row-sm mt-3">
                 <input
                   type="email"
                   name="Email address"
@@ -64,7 +62,7 @@ const EmailOffCanvas = () => {
                   type="text"
                   name="message"
                   className="w-100 p-2"
-                  rows="8"
+                  rows="14"
                   placeholder="Write a message"
                   required
                 ></textarea>

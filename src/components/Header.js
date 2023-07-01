@@ -5,7 +5,7 @@ import "../Style.css";
 const Header = () => {
   return (
     <Fragment>
-      <header className="fixed-top mt-1 mt-md-5 pt-md-5">
+      <header className="fixed-top mt-1 mt-md-5 pt-md-5 headerSection">
         {/* //////////////////// Display only on screens >= md //////////////////////////  */}
         <div class="d-none d-md-flex justify-content-between mt-3 mx-3">
           <div>

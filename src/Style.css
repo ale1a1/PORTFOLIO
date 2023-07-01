@@ -6,30 +6,27 @@ body {
   background-position-x: 50%;
 }
 
-/* ////////////////////////////// header ////////////////////////////// */
-.headerContainer {
-  margin-top: rem !important;
-  margin-right: 11rem !important;  
+.bg-dark-transparent {
+  background-color: rgba(0, 0, 0, 0.75);
 }
 
-.headerH1 {
-  /* font-family:cursive !important; */
-  margin-right: 10rem;
+.bg-dark2-transparent {
+  background-color: rgba(0, 0, 0, 0.85);
 }
 
-.headerH2 {
-  /* font-family:cursive !important; */
-  font-style: italic;
-  margin-top: 7rem !important;
+.hide {
+  display: none;
 }
 
-.headerButtons {
-  margin-right: 1rem !important;
-  margin-top: 10rem !important;
+.round-corners {
+  border-radius: 5px;
+}
+
+.navbarToggler {
+  font-size: 0.5rem;
 }
 
 
-/* ////////////////////////////// footer ////////////////////////////// */
 
 
 /* // Extra small devices (portrait phones, less than 576px)
@@ -61,27 +58,37 @@ body {
 
 
 
-
-
-.bg-dark-transparent {
-  background-color: rgba(0, 0, 0, 0.75);
+/* ////////////////////////////// header ////////////////////////////// */
+/* .headerContainer {
+  margin-top: rem !important;
+  margin-right: 11rem !important;  
 }
 
-.bg-dark2-transparent {
-  background-color: rgba(0, 0, 0, 0.85);
-}
+.headerH1 {
+  /* font-family:cursive !important; */
+  /* margin-right: 10rem; */
+/* } */
 
-.hide {
-  display: none;
-}
+/* .headerH2 {
+  /* font-family:cursive !important; */
+  /* font-style: italic; */
+  /* margin-top: 7rem !important; */
+/* } */ 
 
-.round-corners {
-  border-radius: 5px;
-}
+/* .headerButtons { */
+  /* margin-right: 1rem !important; */
+  /* margin-top: 10rem !important; */
+/* } */ 
+
+
+/* ////////////////////////////// footer ////////////////////////////// */
+
+
+
 
 
 /* ////////////////////////////// about and contact - info ////////////////////////////// */
-.aboutAndContact {
+/* .aboutAndContact {
   position: fixed;
   top:32rem;
   left:18.7rem;
@@ -92,15 +99,15 @@ body {
 .offCanvasInfoCard {
   margin-bottom: 1rem;
   background-color: rgba(0, 0, 0, 0.5);
-}
+} */
 
 
 /* ////////////////////////////// navbar ////////////////////////////// */
-.navBarToggler {
+/* .navBarToggler {
   font-size: 0.5rem;
-}
+} */
 
-.navBarItem {
+/* .navBarItem {
   font-weight: bold;
   color: rgba(0, 0, 0, 0.863) !important;
 }
@@ -111,7 +118,7 @@ body {
 
 nav, ul {
   float: right;
-}
+} */
 
 /* .navbarList {
   flex-grow: 0 !important
@@ -119,7 +126,7 @@ nav, ul {
 
 
 /* ////////////////////////////// portfolio ////////////////////////////// */
-.portfolioHeader {
+/* .portfolioHeader {
   
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -144,7 +151,7 @@ footer {
   background-color: rgba(0, 0, 0, 1);
   font-family: Georgia, "Times New Roman", Times, serif;
   color: #ced4dac9
-}
+} */
 
 
 /* ///////////////////////////////////////////////////////////////////////////////////////// */
@@ -160,7 +167,7 @@ footer {
 /* BELOW 1370px (Smaller desktops/small laptop) */
 /**************************/
 
-@media (max-width: 86em) {
+/* @media (max-width: 86em) {
     .aboutAndContact {
       position: fixed;
       top:15rem;
@@ -176,23 +183,23 @@ footer {
     
     .headerH1 {
       /* font-family:cursive !important; */
-      margin-right: 10rem;
-      font-size: 3rem;
-    }
+      /* margin-right: 10rem; */
+      /* font-size: 3rem; */
+    /* } */
     
-    .headerH2 {
+    /* .headerH2 {
       /* font-family:cursive !important; */
-      font-style: italic;
-      font-size: 3rem;
-      margin-top: 5rem !important;
-    }
-    
-    .headerButtons {
+      /* font-style: italic; */
+      /* font-size: 3rem; */
+      /* margin-top: 5rem !important; */
+    /* } */
+     /* */ 
+    /* .headerButtons {
       margin-right: 0rem !important;
       margin-top: 3.5rem !important;
-    }
+    } */
 
-}
+/* }  */
 
 /**************************/
 /* BELOW 1200px (Landscape Tablets) */
@@ -230,7 +237,7 @@ footer {
 /* ????????????????????????????????????????????????????????????????????? 
 /**************************/
 
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
   .cssSmallScreens {
     font-weight: bold;
   }
@@ -242,7 +249,7 @@ footer {
   }
   .showOnSmallScreen {
     display: list-item;
-  }
+  } */
   /* .marginSmallScreen {
     margin-top: 6rem;
   }
@@ -253,7 +260,7 @@ footer {
     margin-top: 9rem;
   } */
 
-  .sizeSmallScreen {
+  /* .sizeSmallScreen {
     font-size: 0.85rem;
   }
   .portfolio {
@@ -292,7 +299,7 @@ footer {
     padding-left: 7px;
     padding-right: 7px;
     padding-top: 0;
-  }
+  } */
   /* .backgroundPic {
     height: "75vh";
   } */
@@ -305,7 +312,7 @@ footer {
     background-position-x: 50%; */
   /* } */
 
-  .emailField {
+  /* .emailField {
     margin-top: 5%;
   }
-}
+} */

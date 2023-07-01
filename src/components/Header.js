@@ -5,17 +5,19 @@ import "../Style.css";
 const Header = () => {
   return (
     <Fragment>
-      <header className="fixed-top mt-1 mt-md-5 pt-md-5 d-md-flex">
+      <header className="fixed-top mt-1 mt-md-5 pt-md-5">
         {/* //////////////////// Display only on screens >= md //////////////////////////  */}
-        <div class="d-none d-md-flex justify-content-between mt-3 ms-4">
-          <h1 className="display-3 bg-dark p-2">
-            I am <span className="badge bg-secondary">Alex</span>
-          </h1>
-          <div class="">
-            <h2 className="display-4 bg-dark p-2">
+        <div class="d-none d-md-flex justify-content-between mt-3 mx-3">
+          <div>
+            <h1 className="display-2 bg-grey-transparent shadow rounded p-2 ms-2">
+              I am <span className="badge bg-secondary">Alex</span>
+            </h1>
+          </div>
+          <div class="mt-5 d-flex flex-column me-3">
+            <h2 className="display-4 bg-grey-transparent shadow rounded p-1 me-5 mb-3">
             Front End
             </h2>
-            <h2 className="display-4 bg-dark p-2">
+            <h2 className="display-4 bg-grey-transparent shadow rounded p-1 text-center ms-5">
             Developer 
             </h2>
           </div>

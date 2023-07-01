@@ -11,6 +11,11 @@ footer {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
+
+.bg-grey-transparent {
+  background-color: rgba(0, 0, 0, 0.550);
+}
+
 .bg-dark-transparent {
   background-color: rgba(0, 0, 0, 0.75);
 }

@@ -55,7 +55,7 @@ const Navigation = () => {
               </a>
             </li>
 {/* ///////////////////////    mobile screens  /////////////////////////////////////////////////////////////////  */}
-            <div class="mt-5 row">
+            <div class="mt-5 row d-md-none">
               <ul class="navbar-nav justify-content-end pe-1">
                 <li className="nav-item text-end mt-2">
                   <button

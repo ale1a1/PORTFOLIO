@@ -19,44 +19,92 @@ const AboutAndContactOffCanvas = () => {
           ></button>
         </div>
         <div className="offcanvas-body">
-          <div className="card card-body text-start shadow bg-dark2-transparent border border-secondary">
-            <h5 className="card-title text-danger ">About</h5>
+          <div className="card card-body text-start shadow bg-dark2-transparent border border-secondary mb-4">
+            <h5 className="card-title text-danger text-center">Technical Skills</h5>
             <div className="card-text">
-              <ul className="list-unstyled ms-2">
-                <li>Languages: HTML, CSS, Sass, JavaScript, TypeScript</li>
-                <li>Frameworks: React, Angular, Svelte-kit, Bootstrap, Tailwind CSS  </li>
-                <li>Design tools: Figma, Webflow, MockFlow</li>
-                <li>Database: Firebase, SQL (MySQL, SSMS)</li>
-                <li>Collaboration Tools: Airtable, Confluence, Trello</li>
-                <li>Cloud platforms: Heroku, Netlify</li>
-                <li>Version control systems: Git, GitHub, GitLab</li>
-                <li>IDE: VS Code</li>
+              <ul className="list-unstyled about-list text-center mb-0">
+                <li className="d-flex flex-column mt-2 mb-2">
+                  <div className="text-decoration-underline">
+                    Languages: 
+                  </div>
+                  <div className="">
+                    HTML, CSS, Sass, JavaScript, TypeScript
+                  </div>
+                </li>
+                <li className="d-flex flex-column mb-2">
+                  <div className="text-decoration-underline">
+                    Frameworks: 
+                  </div>
+                  <div className="">
+                    React, Angular, Svelte-kit, Bootstrap, Tailwind CSS
+                  </div>
+                </li>
+                <li className="d-flex flex-column mb-2">
+                  <div className="text-decoration-underline">
+                   Design tools: 
+                  </div>
+                  <div className="">
+                    Figma, Webflow, MockFlow
+                  </div>
+                </li>                
+                <li className="d-flex flex-column mb-2">
+                  <div className="text-decoration-underline">
+                    Database: 
+                  </div>
+                  <div className="">
+                    Firebase, SQL (MySQL, SSMS)
+                  </div>
+                </li>
+                <li className="d-flex flex-column mb-2">
+                  <div className="text-decoration-underline">
+                    Collaboration Tools: 
+                  </div>
+                  <div className="">
+                    Airtable, Confluence, Trello
+                  </div>
+                </li>           
+                <li className="d-flex flex-column mb-2">
+                  <div className="text-decoration-underline">
+                    Cloud platforms: 
+                  </div>
+                  <div className="">
+                    Heroku, Netlify
+                  </div>
+                </li>
+                <li className="d-flex flex-column mb-2">
+                  <div className="text-decoration-underline">
+                    Version control systems: 
+                  </div>
+                  <div className="">
+                    Git, GitHub, GitLab
+                  </div>
+                </li>   
+                <li className="d-flex flex-column mb-2">
+                  <div className="text-decoration-underline">
+                    IDE: 
+                  </div>
+                  <div className="">
+                    VS Code
+                  </div>
+                </li>             
               </ul>
             </div>
           </div>
           <div className="card card-body text-start shadow bg-dark2-transparent border border-secondary">
             <h5 className="card-title text-danger ">Contact</h5>
             <div className="card-text">
-              <ul className="list-unstyled ms-4">
+              <ul className="list-unstyled ms-2">
                 <li>
-                  {" "}
-                  <i className="bi bi-house me-2 text-danger"></i> City:
-                  Liverpool
+                  <i className="bi bi-house me-2 text-danger"></i> City: Liverpool
                 </li>
                 <li>
-                  {" "}
-                  <i className="bi bi-signpost me-2 text-danger"></i> Street:
-                  Front End Developers Street
+                  <i className="bi bi-signpost me-2 text-danger"></i> Street: Front End Developers Street
                 </li>
                 <li>
-                  {" "}
-                  <i className="bi bi-telephone me-2 text-danger"></i> Phone:
-                  +447481184619
+                  <i className="bi bi-telephone me-2 text-danger"></i> Phone: +447481184619
                 </li>
                 <li>
-                  {" "}
-                  <i className="bi bi-envelope me-2 text-danger"></i> Email:
-                  ale1a184@gmail.com
+                  <i className="bi bi-envelope me-2 text-danger"></i> Email: ale1a184@gmail.com
                 </li>
               </ul>
             </div>

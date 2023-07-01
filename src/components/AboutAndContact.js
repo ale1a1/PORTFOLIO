@@ -10,7 +10,7 @@ const AboutAndContact = () => {
           <div className="card card-body text-start shadow bg-dark2-transparent">
             <h3 className="text-danger ms-3"><strong>Technical Skills</strong></h3>
             <div className="card-text">
-              <ul className="list-unstyled bulletPoint">
+              <ul className="list-unstyled">
                 <li><strong>Languages:</strong> HTML, CSS, Sass, JavaScript, TypeScript</li>
                 <li><strong>Frameworks:</strong> React, Angular, Svelte-kit, Bootstrap, Tailwind CSS  </li>
                 <li><strong>Design tools:</strong> Figma, Webflow, MockFlow</li>

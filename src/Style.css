@@ -3,7 +3,7 @@ body {
   background-repeat:no-repeat;
   background-size: 100vw;
   background-size: 90vh;
-  background-position-x: 50%;
+  background-position-x: 45%;
 }
 
 footer {
@@ -30,6 +30,14 @@ footer {
 .navbarToggler {
   font-size: 0.5rem;
 }
+
+/* .about-list li::before {
+  content: "\2022";
+  color: red;
+  font-weight: bold;
+  width: 1em;
+  display: inline-block;
+} */
 
 /* ///////////////////////////////////////////////// all classes above are currently in use!!!!! /////////////////////////////////////////////// */
 

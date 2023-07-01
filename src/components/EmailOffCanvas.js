@@ -20,9 +20,9 @@ const EmailOffCanvas = () => {
             aria-label="Close"
           ></button>
         </div>
-        <div className="offcanvas-body d-flex flex-column justify-items-start m-auto">
+        <div className="offcanvas-body">
           <form
-            className="w-100"
+            className="border border-secondary rounded px-3 py-4 bg-dark2-transparent"
             action="https://formsubmit.co/ale1a1@libero.it"         
             method="POST"
           >
@@ -57,7 +57,7 @@ const EmailOffCanvas = () => {
                   required
                 />
               </div>
-              <div className="col-12 mt-3">
+              <div className="col mt-3">
                 <textarea
                   type="text"
                   name="message"

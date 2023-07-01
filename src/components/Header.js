@@ -5,11 +5,11 @@ import "../Style.css";
 const Header = () => {
   return (
     <Fragment>
-      <header className="fixed-top headerSection">
+      <header className="fixed-top headerSection mt-1">
         <h1 className="d-none">
           I am <span className="badge bg-secondary">Alex</span>
         </h1>
-        <h2 className="mt-5 mx-2 rounded display-3 text-center bg-secondary">
+        <h2 className="mt-5 mx-4 rounded display-3 text-center bg-secondary">
           Front End Developer
         </h2>
         <div className="d-none">

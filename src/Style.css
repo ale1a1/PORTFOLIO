@@ -19,14 +19,6 @@ footer {
   background-color: rgba(0, 0, 0, 0.85);
 }
 
-.hide {
-  display: none;
-}
-
-.round-corners {
-  border-radius: 5px;
-}
-
 .headerSection {
   z-index: -100;
 }

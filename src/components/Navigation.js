@@ -19,7 +19,6 @@ const Navigation = () => {
         <div className="collapse navbar-collapse mt-3" id="navbarMain">
           <ul
             className="navbar-nav align-items-end"
-            style={{ zIndex: "10" }}
           >
             <li className="nav-item">
               <a

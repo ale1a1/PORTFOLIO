@@ -5,7 +5,7 @@ import "../Style.css";
 const Header = () => {
   return (
     <Fragment>
-      <header className="">
+      <header className="fixed-top headerSection">
         <h1 className="d-none">
           I am <span className="badge bg-secondary">Alex</span>
         </h1>

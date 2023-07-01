@@ -27,6 +27,14 @@ footer {
   border-radius: 5px;
 }
 
+.headerSection {
+  z-index: -100;
+}
+
+nav {
+  z-index: 100;
+}
+
 .navbarToggler {
   font-size: 0.5rem;
 }

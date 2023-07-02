@@ -22,22 +22,9 @@ const Header = () => {
             </h2>
           </div>
         </div>
-        {/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */}
-        <h2 className="mt-5 mx-4 rounded display-3 text-center bg-secondary d-md-none">
-          Front End Developer
-        </h2>
-        <div className="d-none">
+        <div className="d-none d-md-flex flex-column mt-5 pt-2">
           <button
-            className="btn btn-lg btn-outline-danger text-uppercase bg-dark2-transparent mt-5 me-5"
-            type="button"
-            data-bs-toggle="offcanvas"
-            data-bs-target="#portfolio"
-            aria-controls="portfolio"
-          >
-            portfolio
-          </button>
-          <button
-            className="btn btn-lg btn-outline-warning bg-dark2-transparent mt-5"
+            className="btn btn-lg btn-outline-warning bg-dark2-transparent col-1 offset-9 mt-5 header-button-email"
             type="button"
             data-bs-toggle="offcanvas"
             data-bs-target="#email"
@@ -45,7 +32,20 @@ const Header = () => {
           >
             <i className="bi bi-envelope-open"></i>
           </button>
+          <button
+            className="btn btn-lg btn-outline-danger text-uppercase fw-bold bg-dark2-transparent col-2 offset-9 mt-4 header-button-portfolio"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#portfolio"
+            aria-controls="portfolio"
+          >
+            portfolio
+          </button>
         </div>
+        {/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */}
+        <h2 className="mt-5 mx-4 rounded display-3 text-center bg-secondary d-md-none">
+          Front End Developer
+        </h2>
         {/* <AboutAndContact /> */}
       </header>
     </Fragment>

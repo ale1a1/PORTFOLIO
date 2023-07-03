@@ -23,7 +23,7 @@ const Navigation = () => {
             <li className="nav-item">
               <a
                 href="#info"
-                className="nav-link btn btn-sm btn-outline-dark btn-success d-none"
+                className="nav-link btn btn-sm btn-outline-dark text-white mb-1 btn-success d-none d-md-block"
                 data-bs-toggle="collapse"
                 data-bs-target=".multi-collapse"
                 aria-expanded="false"
@@ -32,21 +32,21 @@ const Navigation = () => {
                 Info
               </a>
             </li>
-            <li className="nav-item removeOnSmallScreens">
+            <li className="nav-item">
               <a
                 data-bs-toggle="collapse"
                 href="#about"
-                className="nav-link btn btn-sm btn-outline-dark btn-light d-none"
+                className="nav-link btn btn-sm btn-outline-dark text-dark m-1 btn-light d-none d-md-block"
                 aria-expanded="false"
                 aria-controls="about"
               >
                 About
               </a>
             </li>
-            <li className="nav-item removeOnSmallScreens">
+            <li className="nav-item">
               <a
                 href="#contact"
-                className="nav-link btn btn-sm btn-outline-dark btn-danger d-none"
+                className="nav-link btn btn-sm btn-outline-dark text-white mb-1 btn-danger d-none d-md-block"
                 data-bs-toggle="collapse"
                 aria-expanded="false"
                 aria-controls="contact"

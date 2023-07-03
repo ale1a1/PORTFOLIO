@@ -30,6 +30,7 @@ footer {
 
 .header-button-portfolio {
   border: 2px solid#dc3545;
+  width: 20% !important;
 }
 
 .header-button-email {
@@ -68,6 +69,9 @@ nav {
 @media (min-width: 768px) {
   .headerSection {
     z-index: 200;
+  }
+  .navbar-collapse {
+    flex-grow: 0;
   }
  }
 

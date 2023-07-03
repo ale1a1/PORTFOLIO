@@ -82,6 +82,14 @@ nav {
 } 
 
 
+/* // Small mobile screens */
+@media (max-width: 25em) {
+  header h2 {
+    font-size: 2rem !important;
+  }  
+}
+
+
 
 
 

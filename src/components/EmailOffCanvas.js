@@ -5,7 +5,7 @@ const EmailOffCanvas = () => {
   return (
     <Fragment>
       <div
-        className="offcanvas offcanvas-end bg-dark"
+        className="offcanvas offcanvas-end bg-dark email"
         tabIndex="-1"
         id="email"
         aria-labelledby="offcanvasEmaillabel"        
@@ -20,7 +20,7 @@ const EmailOffCanvas = () => {
             aria-label="Close"
           ></button>
         </div>
-        <div className="offcanvas-body">
+        <div className="offcanvas-body mt-md-5">
           <form
             className="border border-secondary rounded px-3 py-4 bg-dark2-transparent"
             action="https://formsubmit.co/ale1a1@libero.it"         
@@ -47,7 +47,7 @@ const EmailOffCanvas = () => {
                   required
                 />
               </div>
-              <div className="col-lg row-sm mt-3">
+              <div className="col-lg row-sm mt-3 mt-md-4">
                 <input
                   type="email"
                   name="Email address"
@@ -57,7 +57,7 @@ const EmailOffCanvas = () => {
                   required
                 />
               </div>
-              <div className="col mt-3">
+              <div className="col mt-3 mt-md-4">
                 <textarea
                   type="text"
                   name="message"
@@ -71,7 +71,7 @@ const EmailOffCanvas = () => {
             <div className="col-1">
               <button
                 type="submit"
-                className="btn btn-outline-danger mt-3"
+                className="btn btn-outline-danger mt-3 mt-md-4"
               >
                 Send
               </button>

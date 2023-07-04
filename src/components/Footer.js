@@ -5,12 +5,12 @@ const Footer = () => {
   return (
     <footer className="fixed-bottom bg-dark2-transparent">
       <div className="h-100 d-flex align-items-center justify-content-between mt-1">
-        <p className="d-none">
-          “ Creativity is nothing but the way to solve new problems ... ”
+        <p className="ms-4 text-white-50 d-md-none mt-1">
+          <em>ALW Media </em>
         </p>
-        <p className="ms-4 fs-5 text-white-50">
-          <em>ALW Media</em>
-        </p>
+        <p className="ms-4 d-none text-white-50 d-md-block">
+          “Creativity is nothing but the way to solve new problems...”
+          </p>
         <ul className="list-unstyled d-flex me-4 mt-1">
           <li className="mx-2">
             <a href="https://www.instagram.com/ale1a184/" target="blank">

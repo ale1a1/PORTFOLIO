@@ -73,6 +73,9 @@ nav {
   .navbar-collapse {
     flex-grow: 0;
   }
+  footer p, i {
+    font-size: 1.3rem;
+  }
  }
 
 /* // Large devices (desktops, 992px and up) */

@@ -76,6 +76,10 @@ nav {
   footer p, i {
     font-size: 1.3rem;
   }
+
+  .portfolio {
+    width: 50vw;
+  }
  }
 
 /* // Large devices (desktops, 992px and up) */

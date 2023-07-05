@@ -3,8 +3,7 @@ import "../Style.css";
 
 const AboutAndContact = () => {
   return (
-    <div className="row removeOnSmallScreens aboutAndContact">
-
+    <div className="row about-and-contact">
       <div className="col-md-7">
         <div className="collapse multi-collapse" id="about">
           <div className="card card-body text-start shadow bg-dark2-transparent">
@@ -24,8 +23,7 @@ const AboutAndContact = () => {
           </div>
         </div>
       </div>
-
-      <div className="col-md-5 removeOnSmallScreens">
+      <div className="col-md-5">
         <div className="collapse multi-collapse" id="contact">
           <div className="card card-body text-start shadow bg-dark-transparent">
             <h3 className="text-danger ms-3"><strong>Contact</strong></h3>

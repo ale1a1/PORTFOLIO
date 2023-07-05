@@ -8,18 +8,12 @@ import EmailOffCanvas from "./components/EmailOffCanvas";
 import Footer from "./components/Footer";
 
 import "./Style.css";
-// import img from "../src/Background2.jpg";
 
 function App() {
   return (
     <Fragment>
       <Navigation />
-      <Header />
-      {/* <img
-        src={img}
-        alt="profile-pic"
-        class="position-absolute top-0 img-fluid profile-pic backgroundPic"
-      /> */}
+      <Header />   
       <AboutAndContact />
       <PortfolioOffCanvas />
       <AboutAndContactOffCanvas />

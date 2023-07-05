@@ -22,7 +22,7 @@ const AboutAndContactOffCanvas = () => {
           <div className="card card-body text-start shadow bg-dark2-transparent border border-secondary mb-4">
             <h5 className="card-title text-danger text-center">Technical Skills</h5>
             <div className="card-text">
-              <ul className="list-unstyled about-list text-center mb-0">
+              <ul className="list-unstyled text-center mb-0">
                 <li className="d-flex flex-column mt-2 mb-2">
                   <div className="text-decoration-underline">
                     Languages: 

@@ -49,7 +49,7 @@ const AboutAndContact = () => {
       </div>
       <div className="col-md-5">
         <div className="collapse multi-collapse" id="contact">
-          <div className="card card-body text-start shadow bg-dark2gi-transparent">
+          <div className="card card-body text-start shadow bg-dark2-transparent">
             <h3 className="text-danger ms-3"><strong>Contact</strong></h3>
             <div className="card-text">
               <ul className="list-unstyled">                            

@@ -88,6 +88,9 @@ footer {
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+  body {
+    background-size: 50vw 90vh;
+    background-position-x: 0%;  }
 
 }
 

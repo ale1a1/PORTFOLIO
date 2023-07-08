@@ -22,9 +22,9 @@ const Header = () => {
             </h2>
           </div>
         </div>
-        <div className="d-none d-md-flex flex-column mt-1 pt-0 ms-lg-auto">
+        <div className="d-none d-md-flex flex-column flex-lg-row mt-1 pt-0 ms-lg-auto mt-lg-5 me-lg-3 pt-lg-5">
           <button
-            className="btn btn-lg btn-outline-warning bg-dark2-transparent col-1 ms-4 mt-2 mb-2 header-button-email"
+            className="btn btn-lg btn-outline-warning bg-dark2-transparent col-1 col-lg-auto ms-4 mt-2 mb-2 header-button-email mb-lg-0 ms-lg-0 mt-lg-4"
             type="button"
             data-bs-toggle="offcanvas"
             data-bs-target="#email"
@@ -33,7 +33,7 @@ const Header = () => {
             <i className="bi bi-envelope-open"></i>
           </button>
           <button
-            className="btn btn-lg btn-outline-danger text-uppercase fw-bold bg-dark2-transparent ms-4 mt-5 header-button-portfolio"
+            className="btn btn-lg btn-outline-danger text-uppercase fw-bold bg-dark2-transparent ms-4 mt-5 header-button-portfolio mt-lg-0 ms-lg-2 mt-lg-4"
             type="button"
             data-bs-toggle="offcanvas"
             data-bs-target="#portfolio"

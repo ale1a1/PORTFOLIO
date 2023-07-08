@@ -104,6 +104,15 @@ footer {
     font-size: 3rem !important;
   }
 
+  .header-button-portfolio {
+    border: 2px solid#dc3545;
+    width: 100% !important;
+  }
+  
+  .header-button-email {
+    border: 2px solid #ffc107;
+  }
+
   front-end-dev-h2 {
     background-color: rgba(0, 0, 0, 0.550);
   }

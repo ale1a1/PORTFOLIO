@@ -9,7 +9,7 @@ const AboutAndContact = () => {
           <div className="card card-body text-start shadow bg-dark2-transparent">
             <h3 className="text-danger ms-3"><strong>Technical Skills</strong></h3>
             <div className="card-text">
-              <ul className="list-unstyled">
+              <ul className="list-unstyled bulletPoint">
                 <li className="d-flex mt-1">
                   <span className="me-2 fw-bold">Languages:</span>
                   <span>HTML, CSS, Sass, JavaScript, TypeScript</span>

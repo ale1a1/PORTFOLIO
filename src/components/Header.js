@@ -5,24 +5,24 @@ import "../Style.css";
 const Header = () => {
   return (
     <Fragment>
-      <header className="fixed-top mt-1 mt-md-5 pt-md-5 headerSection">
+      <header className="fixed-top mt-1 mt-md-5 pt-md-5 headerSection d-lg-flex flex-lg-column">
         {/* //////////////////// Display only on screens >= md //////////////////////////  */}
-        <div class="d-none d-md-flex justify-content-between mt-3 mx-3">
-          <div>
-            <h1 className="display-2 bg-grey-transparent shadow rounded p-2 ms-2">
+        <div class="d-none d-md-flex justify-content-between mt-3 mx-3 d-lg-flex flex-lg-column mt-lg-1 me-lg-5">
+          <div className="me-lg-auto">
+            <h1 className="display-2 bg-grey-transparent shadow rounded p-2 ms-2 ms-lg-5">
               I am <span className="badge bg-secondary">Alex</span>
             </h1>
           </div>
-          <div class="mt-5 d-flex flex-column me-3">
-            <h2 className="display-4 bg-grey-transparent shadow rounded p-1 me-5 mb-3">
+          <div class="mt-5 d-flex flex-column flex-lg-row me-3 ms-lg-auto front-end-dev-h2">
+            <h2 className="display-4 bg-grey-transparent shadow rounded p-1 p-lg-2 me-5 mb-3 me-lg-0 mb-lg-0">
             Front End
             </h2>
-            <h2 className="display-4 bg-grey-transparent shadow rounded p-1 text-center ms-5">
+            <h2 className="display-4 bg-grey-transparent shadow rounded p-1 p-lg-2 text-center ms-5 ms-lg-0 mb-lg-0">
             Developer 
             </h2>
           </div>
         </div>
-        <div className="d-none d-md-flex flex-column mt-1 pt-0">
+        <div className="d-none d-md-flex flex-column mt-1 pt-0 ms-lg-auto">
           <button
             className="btn btn-lg btn-outline-warning bg-dark2-transparent col-1 ms-4 mt-2 mb-2 header-button-email"
             type="button"

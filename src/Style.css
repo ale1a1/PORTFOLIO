@@ -95,6 +95,19 @@ footer {
   .about-and-contact {
     top: 35%
   }
+
+  header {
+    left: 50vw !important;
+  }
+
+  header h1, h2 {
+    font-size: 3rem !important;
+  }
+
+  front-end-dev-h2 {
+    background-color: rgba(0, 0, 0, 0.550);
+  }
+
 }
 
 /* // Extra large devices (large desktops, 1200px and up) */

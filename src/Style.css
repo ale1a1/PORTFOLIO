@@ -43,7 +43,7 @@ nav {
   width: 100vw;
   position: fixed;
   top:50%;
-  left:1.5%;
+  z-index: 300;
 }
 
 footer {
@@ -90,8 +90,11 @@ footer {
 @media (min-width: 992px) {
   body {
     background-size: 50vw 90vh;
-    background-position-x: 0%;  }
-
+    background-position-x: 0%;  
+  } 
+  .about-and-contact {
+    top: 35%
+  }
 }
 
 /* // Extra large devices (large desktops, 1200px and up) */

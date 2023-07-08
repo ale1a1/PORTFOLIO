@@ -92,9 +92,6 @@ footer {
     background-size: 50vw 90vh;
     background-position-x: 0%;  
   } 
-  .about-and-contact {
-    top: 35%
-  }
 
   header {
     left: 50vw !important;
@@ -115,6 +112,20 @@ footer {
 
   front-end-dev-h2 {
     background-color: rgba(0, 0, 0, 0.550);
+  }
+
+  .about-and-contact {
+    top: 45%;
+    left: 8.5%;
+  }
+
+  .bulletPoint li::before {
+    content: "\2022";
+    color: red;
+    font-weight: bold;
+    margin-left: 1rem;
+    width: 1em;
+    display: inline-block;
   }
 
 }

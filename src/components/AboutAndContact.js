@@ -3,7 +3,7 @@ import "../Style.css";
 
 const AboutAndContact = () => {
   return (
-    <div className="row d-none d-md-flex about-and-contact mx-auto justify-content-center">
+    <div className="row d-none d-md-flex about-and-contact mx-auto justify-content-center justify-content-lg-start">
       <div className="col-md-7 col-lg-5">
         <div className="collapse multi-collapse" id="about">
           <div className="card card-body text-start shadow bg-dark2-transparent">

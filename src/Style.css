@@ -128,6 +128,10 @@ footer {
     display: inline-block;
   }
 
+  .portfolio {
+    width: 33vw;
+  }
+
 }
 
 /* // Extra large devices (large desktops, 1200px and up) */

@@ -18,7 +18,7 @@ const PortfolioOffCanvas = () => {
             aria-label="Close"
           ></button>
         </div>
-        <div className="offcanvas-body m-auto mt-md-5">
+        <div className="offcanvas-body m-auto mt-md-5 mt-lg-0">
           <div className="card card-body shadow bg-dark2-transparent border border-secondary">
             <h5>Have a look at my work 😊</h5>
             <p className="mb-2 mt-2">

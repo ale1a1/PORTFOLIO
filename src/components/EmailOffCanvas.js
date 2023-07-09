@@ -20,14 +20,14 @@ const EmailOffCanvas = () => {
             aria-label="Close"
           ></button>
         </div>
-        <div className="offcanvas-body mt-md-5">
+        <div className="offcanvas-body mt-md-5 mt-lg-0">
           <form
             className="border border-secondary rounded px-3 py-4 bg-dark2-transparent"
             action="https://formsubmit.co/ale1a1@libero.it"         
             method="POST"
           >
             <div className="row">
-              <div className="col">
+              <div className="col col-lg-6">
                 <input
                   type="text"
                   name="First name"
@@ -37,7 +37,7 @@ const EmailOffCanvas = () => {
                   required
                 />
               </div>
-              <div className="col">
+              <div className="col col-lg-6">
                 <input
                   type="text"
                   name="Second name"
@@ -47,7 +47,7 @@ const EmailOffCanvas = () => {
                   required
                 />
               </div>
-              <div className="col-lg row-sm mt-3 mt-md-4">
+              <div className="col-lg-12 row-sm mt-3 mt-md-4">
                 <input
                   type="email"
                   name="Email address"

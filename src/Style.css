@@ -110,8 +110,14 @@ footer {
     border: 2px solid #ffc107;
   }
 
-  front-end-dev-h2 {
-    background-color: rgba(0, 0, 0, 0.550);
+  .front-end {
+    border-top-right-radius: 0% !important;
+    border-bottom-right-radius: 0% !important;
+  }
+
+  .dev {
+    border-top-left-radius: 0% !important;
+    border-bottom-left-radius: 0% !important;
   }
 
   .about-and-contact {
@@ -137,6 +143,20 @@ footer {
 /* // Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
 
+} 
+
+/* // Extra large devices FHD (1900px and up) */
+@media (min-width: 1900px) {
+  .headerSection {
+    margin-top: 5rem !important;
+  }
+  .front-end-dev {
+    padding-right: 10rem !important;
+    margin-bottom: 5rem !important;
+  }
+  .header-buttons {
+    padding-right: 13rem !important;
+  }
 } 
 
 

@@ -13,16 +13,16 @@ const Header = () => {
               I am <span className="badge bg-secondary">Alex</span>
             </h1>
           </div>
-          <div class="mt-5 d-flex flex-column flex-lg-row me-3 ms-lg-auto front-end-dev-h2">
-            <h2 className="display-4 bg-grey-transparent shadow rounded p-1 p-lg-2 me-5 mb-3 me-lg-0 mb-lg-0">
+          <div class="mt-5 d-flex flex-column flex-lg-row me-3 ms-lg-auto front-end-dev">
+            <h2 className="display-4 bg-grey-transparent shadow rounded p-1 p-lg-2 me-5 mb-3 me-lg-0 mb-lg-0 front-end">
             Front End
             </h2>
-            <h2 className="display-4 bg-grey-transparent shadow rounded p-1 p-lg-2 text-center ms-5 ms-lg-0 mb-lg-0">
+            <h2 className="display-4 bg-grey-transparent shadow rounded p-1 p-lg-2 text-center ms-5 ms-lg-0 mb-lg-0 developer">
             Developer 
             </h2>
           </div>
         </div>
-        <div className="d-none d-md-flex flex-column flex-lg-row mt-1 pt-0 ms-lg-auto mt-lg-5 me-lg-3 pt-lg-5">
+        <div className="d-none d-md-flex flex-column flex-lg-row mt-1 pt-0 ms-lg-auto mt-lg-5 me-lg-3 pt-lg-5 header-buttons">
           <button
             className="btn btn-lg btn-outline-warning bg-dark2-transparent col-1 col-lg-auto ms-4 mt-2 mb-2 header-button-email mb-lg-0 ms-lg-0 mt-lg-4"
             type="button"

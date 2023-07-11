@@ -20,7 +20,7 @@ const EmailOffCanvas = () => {
             aria-label="Close"
           ></button>
         </div>
-        <div className="offcanvas-body mt-md-5 mt-lg-0">
+        <div className="offcanvas-body mt-md-5 mt-lg-0 email-body">
           <form
             className="border border-secondary rounded px-3 py-4 bg-dark2-transparent"
             action="https://formsubmit.co/ale1a1@libero.it"         

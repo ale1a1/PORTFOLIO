@@ -157,6 +157,36 @@ footer {
   .header-buttons {
     padding-right: 13rem !important;
   }
+
+  .about-and-contact {
+    z-index: 150;
+    left: 20.9%
+  }
+
+  .contact {
+    max-width: 22rem;
+  }
+
+  .skills {
+    max-width: 35rem;
+  }
+ 
+  .email {
+    max-width: 25vw;
+  }
+
+  .email-body {
+    margin-top: 3rem !important;
+  }
+
+  .portfolio {
+    max-width: 25vw;
+  }
+
+  .portfolio-body {
+    margin-top: 3rem !important;
+  }
+
 } 
 
 

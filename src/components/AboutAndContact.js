@@ -4,7 +4,7 @@ import "../Style.css";
 const AboutAndContact = () => {
   return (
     <div className="row d-none d-md-flex about-and-contact mx-auto justify-content-center justify-content-lg-start">
-      <div className="col-md-7 col-lg-5">
+      <div className="col-md-7 col-lg-5 skills">
         <div className="collapse multi-collapse" id="about">
           <div className="card card-body text-start shadow bg-dark2-transparent">
             <h3 className="text-danger ms-3"><strong>Technical Skills</strong></h3>
@@ -47,7 +47,7 @@ const AboutAndContact = () => {
           </div>
         </div>
       </div>
-      <div className="col-md-5 col-lg-3">
+      <div className="col-md-5 col-lg-3 contact">
         <div className="collapse multi-collapse" id="contact">
           <div className="card card-body text-start shadow bg-dark2-transparent">
             <h3 className="text-danger ms-3"><strong>Contact</strong></h3>

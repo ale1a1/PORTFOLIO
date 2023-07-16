@@ -38,10 +38,10 @@ const AboutAndContact = () => {
                   <span className="me-2 fw-bold">Version control systems:</span>
                   <span>Git, GitHub, GitLab</span>
                 </li>
-                <li className="d-flex mt-1">
+                {/* <li className="d-flex mt-1">
                   <span className="me-2 fw-bold">IDE:</span>
                   <span>VS Code</span>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>

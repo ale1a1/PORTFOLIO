@@ -32,7 +32,7 @@ const Navigation = () => {
                 Info
               </a>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <a
                 data-bs-toggle="collapse"
                 href="#about"
@@ -42,7 +42,7 @@ const Navigation = () => {
               >
                 About
               </a>
-            </li>
+            </li> */}
             <li className="nav-item">
               <a
                 href="#contact"

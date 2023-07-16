@@ -19,6 +19,7 @@ body {
   background-size: 100vw;
   background-size: 90vh;
   background-position-x: 45%;
+  background-position-y:top !important;
   min-height: 100vh !important;
   min-height: -webkit-fill-available !important
 }

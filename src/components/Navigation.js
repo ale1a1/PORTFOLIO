@@ -36,7 +36,7 @@ const Navigation = () => {
               <a
                 data-bs-toggle="collapse"
                 href="#about"
-                className="nav-link btn btn-sm btn-outline-dark text-dark m-1 btn-light d-none d-md-block"
+                className="nav-link btn btn-sm btn-outline-dark text-dark m-1 btn-light d-none d-md-block about-navTab-md"
                 aria-expanded="false"
                 aria-controls="about"
               >
@@ -56,7 +56,7 @@ const Navigation = () => {
             </li>
 {/* ///////////////////////    mobile screens  /////////////////////////////////////////////////////////////////  */}
             <div class="mt-5 row d-md-none">
-              <ul class="navbar-nav justify-content-end pe-1">
+              <ul class="navbar-nav justify-content-end mobile-nav-bar-ul">
                 <li className="nav-item text-end mt-2">
                   <button
                     className="btn btn-outline-warning bg-dark2-transparent"

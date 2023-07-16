@@ -1,3 +1,6 @@
+/* REMEMBER: DEFAULT CSS IS MOBILE SCREENS! */
+
+
 .bg-grey-transparent {
   background-color: rgba(0, 0, 0, 0.550);
 }
@@ -24,6 +27,14 @@ nav {
 
 .navbarToggler {
   font-size: 0.5rem;
+}
+
+.about-navTab-md:hover {
+  color: white !important;
+}
+
+.mobile-nav-bar-ul {
+  padding-right: 0.7rem !important;
 }
 
 .headerSection {

@@ -153,7 +153,9 @@ footer {
 
 /* // Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-
+  .bg-black {
+    background-color: black !important;
+  }
 } 
 
 /* // Extra large devices FHD (1900px and up) */

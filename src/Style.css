@@ -20,12 +20,8 @@ body {
   background-size: calc(var(--vh, 1vh) * 90);
   background-position-x: 45%;
   background-position-y:top !important;
-  min-height: 100vh !important;
-  min-height: -webkit-fill-available !important
-}
-
-body {
-  
+  /* min-height: calc(var(--vh, 1vh) * 100) !important;
+  min-height: -webkit-fill-available !important */
 }
 
 nav {
@@ -65,7 +61,7 @@ nav {
 }
 
 footer {
-  height: 10vh;
+  height: calc(var(--vh, 1vh) * 10);
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 

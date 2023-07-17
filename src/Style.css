@@ -19,6 +19,13 @@ body {
   background-size: 100vw;
   background-size: calc(var(--vh, 1vh) * 90);
   background-position-x: 45%;
+  background-position-y:top !important;
+  min-height: 100vh !important;
+  min-height: -webkit-fill-available !important
+}
+
+body {
+  
 }
 
 nav {

@@ -10,6 +10,15 @@ import Footer from "./components/Footer";
 import "./Style.css";
 
 function App() {
+
+  function setContainerHeight() {
+    const vh = window.innerHeight * 0.01;
+    document.documentElement.style.setProperty('--vh', `${vh}px`);
+  }
+  
+  window.addEventListener('resize', setContainerHeight);
+  setContainerHeight(); 
+
   return (
     <Fragment>
       <Navigation />

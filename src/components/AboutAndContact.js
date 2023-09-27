@@ -17,10 +17,14 @@ const AboutAndContact = () => {
                 <li className="d-flex mt-1">
                   <span className="me-2 fw-bold">Frameworks:</span>
                   <span>React, Angular, Svelte-kit, Bootstrap, Tailwind CSS</span>
-                </li>
+                </li>              
                 <li className="d-flex mt-1">
                   <span className="me-2 fw-bold">Design tools:</span>
                   <span>Figma, Webflow, MockFlow</span>
+                </li>
+                <li className="d-flex mt-1">
+                  <span className="me-2 fw-bold">CMS:</span>
+                  <span>Squarespace</span>
                 </li>
                 <li className="d-flex mt-1">
                   <span className="me-2 fw-bold">Database:</span>

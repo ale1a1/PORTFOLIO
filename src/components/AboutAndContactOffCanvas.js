@@ -38,7 +38,7 @@ const AboutAndContactOffCanvas = () => {
                   <div className="">
                     React, Angular, Svelte-kit, Bootstrap, Tailwind CSS
                   </div>
-                </li>
+                </li>         
                 <li className="d-flex flex-column mb-2">
                   <div className="text-decoration-underline">
                    Design tools: 
@@ -46,7 +46,15 @@ const AboutAndContactOffCanvas = () => {
                   <div className="">
                     Figma, Webflow, MockFlow
                   </div>
-                </li>                
+                </li>  
+                <li className="d-flex flex-column mb-2">
+                  <div className="text-decoration-underline">
+                    CMS:
+                  </div>
+                  <div className="">
+                    Squarespace
+                  </div>
+                </li>              
                 <li className="d-flex flex-column mb-2">
                   <div className="text-decoration-underline">
                     Database: 

@@ -36,12 +36,12 @@ const AboutAndContactOffCanvas = () => {
                     Frameworks: 
                   </div>
                   <div className="">
-                    React, Angular, Svelte-kit, Bootstrap, Tailwind CSS
+                    React, Angular, Nuxt(basic), Svelte-kit(basic), Bootstrap, Tailwind CSS
                   </div>
                 </li>         
                 <li className="d-flex flex-column mb-2">
                   <div className="text-decoration-underline">
-                   Design tools: 
+                    Design tools: 
                   </div>
                   <div className="">
                     Figma, Webflow, MockFlow
@@ -57,7 +57,7 @@ const AboutAndContactOffCanvas = () => {
                 </li>              
                 <li className="d-flex flex-column mb-2">
                   <div className="text-decoration-underline">
-                    Database: 
+                    Database(basic): 
                   </div>
                   <div className="">
                     Firebase, SQL (MySQL, SSMS)

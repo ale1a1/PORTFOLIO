@@ -115,6 +115,11 @@ footer {
     font-size: 2.5rem !important;
   }
 
+  /* // temp fix  */
+  .frameworks {
+  margin-left: 5.75px;
+  }
+
   .header-button-portfolio {
     border: 2px solid#dc3545;
     width: 100% !important;

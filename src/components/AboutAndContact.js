@@ -16,8 +16,12 @@ const AboutAndContact = () => {
                 </li>
                 <li className="d-flex mt-1">
                   <span className="me-2 fw-bold frameworks">Frameworks:</span>
-                  <span>React, Angular, Nuxt(basic), Svelte-kit(basic), Bootstrap, Tailwind CSS</span>
-                </li>              
+                  <span>React, Angular, Nuxt, Svelte-kit (basic), jQuery, Bootstrap, Tailwind CSS</span>
+                </li>
+                <li className="d-flex mt-1">
+                  <span className="me-2 fw-bold">Unit Testing (basic):</span>
+                  <span>Jest, Vitest</span>
+                </li>                
                 <li className="d-flex mt-1">
                   <span className="me-2 fw-bold">Design tools:</span>
                   <span>Figma, Webflow, MockFlow</span>
@@ -27,8 +31,8 @@ const AboutAndContact = () => {
                   <span>Squarespace</span>
                 </li>
                 <li className="d-flex mt-1">
-                  <span className="me-1 fw-bold">Database</span>
-                  <span>(basic): Firebase, SQL (MySQL, SSMS)</span>
+                  <span className="me-1 fw-bold">Database (basic):</span>
+                  <span>Firebase, SQL (MySQL, SSMS)</span>
                 </li>
                 <li className="d-flex mt-1">
                   <span className="me-2 fw-bold">Collaboration Tools:</span>

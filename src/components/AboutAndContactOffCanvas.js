@@ -36,7 +36,15 @@ const AboutAndContactOffCanvas = () => {
                     Frameworks: 
                   </div>
                   <div className="">
-                    React, Angular, Nuxt(basic), Svelte-kit(basic), Bootstrap, Tailwind CSS
+                    React, Angular, Nuxt(basic), Svelte-kit, jQuery, Bootstrap, Tailwind CSS
+                  </div>
+                </li> 
+                <li className="d-flex flex-column mb-2">
+                  <div className="text-decoration-underline">
+                    Unit Testing: 
+                  </div>
+                  <div className="">
+                    Jest, Vitest
                   </div>
                 </li>         
                 <li className="d-flex flex-column mb-2">

@@ -171,6 +171,11 @@ footer {
 
 /* // Extra large devices FHD (1900px and up) */
 @media (min-width: 1900px) {
+  body {
+    background-size: 45vw 90vh;
+    background-position-x: 0%;  
+  } 
+
   .headerSection {
     margin-top: 5rem !important;
   }
@@ -184,8 +189,8 @@ footer {
 
   .about-and-contact {
     z-index: 150;
-    left: 20.9%;
-    top: 45%
+    left: 15.9%;
+    top: 40%
   }
 
   .contact {

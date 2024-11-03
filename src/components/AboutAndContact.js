@@ -19,7 +19,7 @@ const AboutAndContact = () => {
                   <span>React, Angular, Nuxt, Svelte-kit (basic), jQuery, Bootstrap, Tailwind CSS</span>
                 </li>
                 <li className="d-flex mt-1">
-                  <span className="me-2 fw-bold">Unit Testing (basic):</span>
+                  <span className="me-2 fw-bold">Unit Testing:</span>
                   <span>Jest, Vitest</span>
                 </li>                
                 <li className="d-flex mt-1">

@@ -65,7 +65,7 @@ const AboutAndContactOffCanvas = () => {
                 </li>              
                 <li className="d-flex flex-column mb-2">
                   <div className="text-decoration-underline">
-                    Database(basic): 
+                    Database: 
                   </div>
                   <div className="">
                     Firebase, SQL (MySQL, SSMS)

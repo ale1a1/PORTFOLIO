@@ -31,7 +31,7 @@ const AboutAndContact = () => {
                   <span>Squarespace</span>
                 </li>
                 <li className="d-flex mt-1">
-                  <span className="me-1 fw-bold">Database (basic):</span>
+                  <span className="me-1 fw-bold">Database:</span>
                   <span>Firebase, SQL (MySQL, SSMS)</span>
                 </li>
                 <li className="d-flex mt-1">

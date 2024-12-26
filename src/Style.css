@@ -65,6 +65,24 @@ footer {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
+/* ////////////////////////////// Project modal ///////////////////////////////////////////////////////////////////////////////// */
+
+.list-group-item {cursor: pointer;}
+
+.project-modal {
+  background-color: #212529;
+  border: 0.1px solid rgba(255, 255, 255, 0.5);
+}
+
+.project-modal-header {
+  border-bottom: 0.1px solid rgba(255, 255, 255, 0.5);
+}
+
+.open-project-btn {
+  font-weight: bold;
+  border: 2px solid #198754;
+  margin-top: 1rem;
+}
 
 
 

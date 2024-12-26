@@ -1,7 +1,19 @@
-import React, { Fragment } from "react";
+import React, { Fragment, useState } from "react";
 import "../Style.css";
+import ProjectModal from "./ProjectModal";
 
 const PortfolioOffCanvas = () => {
+
+  const [selectedProject, setSelectedProject] = useState(null); // State to hold the selected project
+
+  const handleProjectClick = (projectName) => {
+    setSelectedProject(projectName); // Update the selected project
+  };
+
+  const handleCloseModal = () => {
+    setSelectedProject(null);
+  };
+
   return (
     <Fragment>
       <div
@@ -22,70 +34,83 @@ const PortfolioOffCanvas = () => {
           <div className="card card-body shadow bg-dark2-transparent border border-secondary">
             <h5>Have a look at my work 😊</h5>
             <p className="mb-2 mt-2">
-            Some projects are my own work and some are created coding along the tutors on the online courses I followed, using React, Html, Javascript, Css and Bootstrap 5 😊 
+            Some projects are my own work, while others were created by coding along with tutors in the online courses I followed.
             </p>
             <ul className="list-group mt-4">
-              <a
-                href="https://omnifood-alw.netlify.app/"
+              <div
                 className="list-group-item list-group-item-danger list-group-item-action mb-3 mb-md-4 rounded"
                 target="_blank"
                 rel="noreferrer"
-              >
-                <i className="bi bi-globe2"> </i>{" "}
-                <span className="ms-3">Omnifood website</span>
-              </a>
-
-              <a
-                href="https://business-directory-alw.netlify.app/"
-                className="list-group-item list-group-item-danger list-group-item-action mb-3 mb-md-4 rounded"
-                target="_blank"
-                rel="noreferrer"
+                onClick={() => handleProjectClick("Quiz Game")}
               >
                 <i className="bi bi-globe2"></i>
-                <span className="ms-3">Business Directory website</span>
-              </a>
-
-              <a
-                href="https://uhost-alw.netlify.app/"
+                <span className="ms-3">Quiz Game</span>
+              </div>
+              <div
                 className="list-group-item list-group-item-danger list-group-item-action mb-3 mb-md-4 rounded"
                 target="_blank"
                 rel="noreferrer"
-              >
-                <i className="bi bi-globe2"></i>
-                <span className="ms-3">uHost website</span>
-              </a>
-
-              <a
-                href="https://find-users-app.netlify.app/"
-                className="list-group-item list-group-item-danger list-group-item-action mb-3 mb-md-4 rounded"
-                target="_blank"
-                rel="noreferrer"
+                onClick={() => handleProjectClick("Find Users app")}
               >
                 <i className="bi bi-globe2"> </i>
                 <span className="ms-3">Find Users app</span>
-              </a>
-              <a
-                href="https://lisbon-chairs-shop.netlify.app/"
+              </div>
+              <div               
                 className="list-group-item list-group-item-danger list-group-item-action mb-3 mb-md-4 rounded"
                 target="_blank"
                 rel="noreferrer"
+                onClick={() => handleProjectClick("Omnifood website")}
+              >
+                <i className="bi bi-globe2"> </i>{" "}
+                <span className="ms-3">Omnifood website</span>
+              </div>
+              <div
+                className="list-group-item list-group-item-danger list-group-item-action mb-3 mb-md-4 rounded"
+                target="_blank"
+                rel="noreferrer"
+                onClick={() => handleProjectClick("Lisbon Chairs Shop website")}
               >
                 <i className="bi bi-globe2"></i>
                 <span className="ms-3">Lisbon Chairs Shop website</span>
-              </a>
-              <a
-                href="https://bankist-alw.netlify.app/"
+              </div>
+              <div
                 className="list-group-item list-group-item-danger list-group-item-action mb-3 mb-md-4 rounded"
                 target="_blank"
                 rel="noreferrer"
+                onClick={() => handleProjectClick("Business Directory website")}
+              >
+                <i className="bi bi-globe2"></i>
+                <span className="ms-3">Business Directory website</span>
+              </div>
+              <div
+                className="list-group-item list-group-item-danger list-group-item-action mb-3 mb-md-4 rounded"
+                target="_blank"
+                rel="noreferrer"
+                onClick={() => handleProjectClick("Bankist website")}
               >
                 <i className="bi bi-globe2"></i>
                 <span className="ms-3">Bankist website</span>
-              </a>
+              </div>
+              <div
+                className="list-group-item list-group-item-danger list-group-item-action mb-3 mb-md-4 rounded"
+                target="_blank"
+                rel="noreferrer"
+                onClick={() => handleProjectClick("uHost website")}
+              >
+                <i className="bi bi-globe2"></i>
+                <span className="ms-3">uHost website</span>
+              </div>          
             </ul>
           </div>
         </div>
       </div>
+      {/* Conditionally render ProjectModal */}
+      {selectedProject && (
+        <ProjectModal
+          project={selectedProject}
+          onClose={handleCloseModal}
+        />
+      )}
     </Fragment>
   );
 };

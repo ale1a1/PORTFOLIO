@@ -50,7 +50,7 @@ const projects = [
   {
     name: "Quiz Game",
     description: "The Quiz Game is a personal project that allows users to play a 10-question quiz across a wide variety of categories, either as a guest or by logging in with their Google account. The app tracks scores for logged-in users, displaying their progress on a leaderboard and within a personal scores section.",
-    technologies: "The app is built with Vue 3, TypeScript, and CSS, utilizing a public API for retrieving questions and Firebase for database management and Google authentication.",
+    technologies: "The app is built with Vue 3, TypeScript, and CSS, utilizing a public API for retrieving questions and Firebase for database management and Google authentication. It is hosted on Netlify, providing easy access and reliable performance.",
     url: 'https://play-quiz-game-now.netlify.app/'
   },
 ];

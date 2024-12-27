@@ -49,7 +49,7 @@ const projects = [
   },
   {
     name: "Quiz Game",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    description: "The Quiz Game is a personal project which allows the user to play a 10 question quiz on a broad variety of categories, either as a guest or logged in with their Google account; the app keeps track of the logged in users scores, and show their progress on a leaderboard and in a personal scores section.",
     technologies: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit",
     testInfo: "You can either play the game as a guest, or login using Google",
     url: 'https://play-quiz-game-now.netlify.app/'

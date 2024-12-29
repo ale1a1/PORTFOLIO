@@ -27,29 +27,29 @@ const projects = [
   },
   {
     name: "Lisbon Chairs Shop website",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    technologies: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    description: "The '<i>Lisbon Chairs Shop website</i>' is a personal project and a conceptual e-commerce website showcasing a collection of meticulously designed, handcrafted chairs that combine beauty, comfort, and sustainability. The website demonstrates a user-friendly online shopping experience, and it serves as a portfolio piece, showcasing modern web technologies and design skills.",
+    technologies: "The app is built using <b>React</b>, <b>JavaScript</b>, <b>HTML</b> and <b>CSS</b>, and it is hosted on <b>Netlify</b>.",
     testInfo: null,
     url:'https://lisbon-chairs-shop.netlify.app/'
   },
   {
     name: "Business Directory website",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    technologies: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    description: "The '<i>Business Directory website</i>' was developed as part of a Bootstrap course, designed as a simple, responsive website for a fictional financial planning company. The website features an expert team section, service offerings with checkboxes, and a contact page, showcasing skills in web design and responsive development using Bootstrap.",
+    technologies: "The app is built using <b>React</b>, <b>JavaScript</b>, <b>HTML</b> and <b>Bootstrap</b>, and it is hosted on <b>Netlify</b>.",
     testInfo: null,
     url:'https://business-directory-alw.netlify.app/'
   },
   {
     name: "Bankist website",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    technologies: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    description: "The '<i>Bankist Website</i>' is an app developed as part of a JavaScript and CSS course, that showcases a minimalist digital banking experience. The website focuses on providing a modern, user-friendly interface, and demonstrates the application of JavaScript and CSS in creating interactive and responsive web applications.",
+    technologies: "Hosted on <b>Netlify</b>, the app is built using <b>JavaScript</b>, <b>HTML</b> and <b>CSS</b>.",
     testInfo: null,
     url: 'https://bankist-alw.netlify.app/'
   },
   {
     name: "uHost website",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    technologies: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    description: "The '<i>uHost website</i>' is a simple app created as part of a basic HTML and CSS course. It showcases a hosting company offering three different plans: Free, Plus, and Premium, with varying features such as storage, support, and workspaces.",
+    technologies: "The app is built using <b>JavaScript</b>, <b>HTML</b> and <b>CSS</b>, and it is hosted on <b>Netlify</b>",
     testInfo: null,
     url: 'https://uhost-alw.netlify.app/'
   }

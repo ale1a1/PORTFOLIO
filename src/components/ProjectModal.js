@@ -6,32 +6,24 @@ const ProjectModal = ({ project, onClose }) => {
 // Define the projects data
 const projects = [
   {
-    name: "Omnifood website",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    technologies: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    testInfo: null,
-    url: 'https://omnifood-alw.netlify.app/' 
-  },
-  {
-    name: "Business Directory website",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    technologies: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    testInfo: null,
-    url:'https://business-directory-alw.netlify.app/'
-  },
-  {
-    name: "uHost website",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    technologies: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    testInfo: null,
-    url: 'https://uhost-alw.netlify.app/'
+    name: "Quiz Game",
+    description: "The '<i>Quiz Game</i>' is a personal project that allows users to play a 10-question quiz across a wide variety of categories, either as a guest or by logging in with their Google account. The app tracks scores for logged-in users, displaying their progress on a leaderboard and within a personal scores section.",
+    technologies: "The app is built with <b>Vue 3</b>, <b>HTML</b>, <b>TypeScript</b>, and <b>CSS</b>, utilizing a <b>public API</b> for retrieving questions and <b>Firebase</b> for database management and Google authentication. It is hosted on <b>Netlify</b>, providing easy access and reliable performance.",
+    url: 'https://play-quiz-game-now.netlify.app/'
   },
   {
     name: "Find Users app",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    technologies: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    testInfo: 'You can either create a profile and then login, or use the test credential provided - see the login section',
+    description: "The '<i>Find Users app</i>' is a personal project that allows users to create profiles, browse a user list, retrieve details, and save favorites. Designed as a boilerplate prototype for user directory and profile management functionality.",
+    technologies: "The <b>Frontend</b> is built using <b>React</b>, <b>Html</b>, <b>Bootstrap</b>, <b>CSS</b>, and <b>JavaScript</b>, and it is hosted on <b>Netlify</b>.<br>The <b>Backend</b> is built using <b>Node.js</b> and <b>Express.js</b>, providing a robust and scalable framework for handling HTTP requests and routing. <b>Cors</b> and <b>Body-Parser</b> middleware are used to enable secure cross-origin requests and parse incoming request bodies. <b>MySQL Workbench</b> was utilized for designing and managing the relational database, which is hosted on <b>Back4App</b> to ensure reliable and scalable data storage. The architecture follows a <b>RESTful API</b> approach for efficient data handling and user management.",
+    testInfo: 'Test credentials are available in the login section for users who prefer not to create a profile.',
     url:'https://find-users-app.netlify.app/'
+  },
+  {
+    name: "Omnifood website",
+    description: "The '<i>Omifood website</i>' was developed as part of an HTML, JavaScript, and CSS course, demonstrating the basics of building a dynamic, user-friendly website. <br> It is a prototype for a meal subscription service designed to deliver personalized, healthy meals to customers' doors every day.",
+    technologies: "Hosted on <b>Netlify</b>, the app is built using <b>JavaScript</b>, <b>HTML</b> and <b>CSS</b>.",
+    testInfo: null,
+    url: 'https://omnifood-alw.netlify.app/' 
   },
   {
     name: "Lisbon Chairs Shop website",
@@ -41,6 +33,13 @@ const projects = [
     url:'https://lisbon-chairs-shop.netlify.app/'
   },
   {
+    name: "Business Directory website",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    technologies: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    testInfo: null,
+    url:'https://business-directory-alw.netlify.app/'
+  },
+  {
     name: "Bankist website",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit",
     technologies: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -48,11 +47,12 @@ const projects = [
     url: 'https://bankist-alw.netlify.app/'
   },
   {
-    name: "Quiz Game",
-    description: "The Quiz Game is a personal project that allows users to play a 10-question quiz across a wide variety of categories, either as a guest or by logging in with their Google account. The app tracks scores for logged-in users, displaying their progress on a leaderboard and within a personal scores section.",
-    technologies: "The app is built with Vue 3, TypeScript, and CSS, utilizing a public API for retrieving questions and Firebase for database management and Google authentication. It is hosted on Netlify, providing easy access and reliable performance.",
-    url: 'https://play-quiz-game-now.netlify.app/'
-  },
+    name: "uHost website",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    technologies: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    testInfo: null,
+    url: 'https://uhost-alw.netlify.app/'
+  }
 ];
 
 // Find the project object that matches the name passed as the `project` prop
@@ -89,9 +89,9 @@ useEffect(() => {
         <div className="modal-content project-modal">
           <div className="modal-header project-modal-header 
           ">
-            <h4 className="modal-title text-danger" id="projectModalLabel">
+            <h3 className="modal-title text-danger" id="projectModalLabel">
             {selectedProject ? selectedProject.name : "Project Not Found"}
-            </h4>
+            </h3>
             <button
               type="button"
               className="btn-close btn-close-white"
@@ -101,16 +101,20 @@ useEffect(() => {
           </div>
           <div className="modal-body">
             <div>
-              <h5>Description</h5>
-              <p>{selectedProject.description}</p>
+              <h4>Description</h4>
+              <p dangerouslySetInnerHTML={{
+                  __html: selectedProject ? selectedProject.description : "No description available"
+                }}></p>
             </div>
             <div> 
-              <h5>Technologies Used</h5>
-              <p>{selectedProject.technologies}</p>
+              <h4>Technologies Used</h4>
+              <p dangerouslySetInnerHTML={{
+                  __html: selectedProject ? selectedProject.technologies : "No techologies available"
+                }}></p>
             </div>
             {selectedProject.testInfo && (
               <div>
-                <h5>Test info</h5>
+                <h4>Test info</h4>
                 <p>{selectedProject.testInfo}</p>
               </div>
             )}

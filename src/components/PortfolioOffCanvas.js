@@ -62,7 +62,7 @@ const PortfolioOffCanvas = () => {
                 onClick={() => handleProjectClick("Find Users app")}
               >
                 <i className="bi bi-globe2"> </i>
-                <span className="ms-3">Find Users app</span>
+                <span className="ms-3">Find Users</span>
               </div> */}
               <div               
                 className="list-group-item list-group-item-danger list-group-item-action mb-3 mb-md-4 rounded"
@@ -71,7 +71,7 @@ const PortfolioOffCanvas = () => {
                 onClick={() => handleProjectClick("Omnifood website")}
               >
                 <i className="bi bi-globe2"> </i>{" "}
-                <span className="ms-3">Omnifood website</span>
+                <span className="ms-3">Omnifood</span>
               </div>
               <div
                 className="list-group-item list-group-item-danger list-group-item-action mb-3 mb-md-4 rounded"
@@ -80,7 +80,7 @@ const PortfolioOffCanvas = () => {
                 onClick={() => handleProjectClick("Lisbon Chairs Shop website")}
               >
                 <i className="bi bi-globe2"></i>
-                <span className="ms-3">Lisbon Chairs Shop website</span>
+                <span className="ms-3">Lisbon Chairs Shop</span>
               </div>
               <div
                 className="list-group-item list-group-item-danger list-group-item-action mb-3 mb-md-4 rounded"
@@ -89,7 +89,7 @@ const PortfolioOffCanvas = () => {
                 onClick={() => handleProjectClick("Business Directory website")}
               >
                 <i className="bi bi-globe2"></i>
-                <span className="ms-3">Business Directory website</span>
+                <span className="ms-3">Business Directory</span>
               </div>
               <div
                 className="list-group-item list-group-item-danger list-group-item-action mb-3 mb-md-4 rounded"
@@ -98,7 +98,7 @@ const PortfolioOffCanvas = () => {
                 onClick={() => handleProjectClick("Bankist website")}
               >
                 <i className="bi bi-globe2"></i>
-                <span className="ms-3">Bankist website</span>
+                <span className="ms-3">Bankist</span>
               </div>
               <div
                 className="list-group-item list-group-item-danger list-group-item-action mb-3 mb-md-4 rounded"
@@ -107,7 +107,7 @@ const PortfolioOffCanvas = () => {
                 onClick={() => handleProjectClick("uHost website")}
               >
                 <i className="bi bi-globe2"></i>
-                <span className="ms-3">uHost website</span>
+                <span className="ms-3">uHost</span>
               </div>          
             </ul>
           </div>

@@ -91,7 +91,7 @@ useEffect(() => {
       aria-hidden="true"
       style={{ backgroundColor: "rgba(0, 0, 0, 0.85)" }}
     >
-      <div className="modal-dialog modal-dialog-centered text-light" role="document">
+      <div className="modal-dialog modal-dialog-centered modal-dialog-scrollable text-light" role="document">
         <div className="modal-content project-modal">
           <div className="modal-header project-modal-header 
           ">

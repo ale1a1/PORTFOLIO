@@ -55,7 +55,7 @@ const PortfolioOffCanvas = () => {
                 <i className="bi bi-globe2"></i>
                 <span className="ms-3">Su Sinnu</span>
               </div>
-              <div
+              {/* <div
                 className="list-group-item list-group-item-danger list-group-item-action mb-3 mb-md-4 rounded"
                 target="_blank"
                 rel="noreferrer"
@@ -63,7 +63,7 @@ const PortfolioOffCanvas = () => {
               >
                 <i className="bi bi-globe2"> </i>
                 <span className="ms-3">Find Users app</span>
-              </div>
+              </div> */}
               <div               
                 className="list-group-item list-group-item-danger list-group-item-action mb-3 mb-md-4 rounded"
                 target="_blank"

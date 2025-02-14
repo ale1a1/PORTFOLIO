@@ -50,6 +50,15 @@ const PortfolioOffCanvas = () => {
                 className="list-group-item list-group-item-danger list-group-item-action mb-3 mb-md-4 rounded"
                 target="_blank"
                 rel="noreferrer"
+                onClick={() => handleProjectClick("Quiz Game")}
+              >
+                <i className="bi bi-globe2"></i>
+                <span className="ms-3">Su Sinnu</span>
+              </div>
+              <div
+                className="list-group-item list-group-item-danger list-group-item-action mb-3 mb-md-4 rounded"
+                target="_blank"
+                rel="noreferrer"
                 onClick={() => handleProjectClick("Find Users app")}
               >
                 <i className="bi bi-globe2"> </i>

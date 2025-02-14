@@ -68,7 +68,7 @@ const PortfolioOffCanvas = () => {
                 className="list-group-item list-group-item-danger list-group-item-action mb-3 mb-md-4 rounded"
                 target="_blank"
                 rel="noreferrer"
-                onClick={() => handleProjectClick("Omnifood website")}
+                onClick={() => handleProjectClick("Omnifood")}
               >
                 <i className="bi bi-globe2"> </i>{" "}
                 <span className="ms-3">Omnifood</span>
@@ -77,7 +77,7 @@ const PortfolioOffCanvas = () => {
                 className="list-group-item list-group-item-danger list-group-item-action mb-3 mb-md-4 rounded"
                 target="_blank"
                 rel="noreferrer"
-                onClick={() => handleProjectClick("Lisbon Chairs Shop website")}
+                onClick={() => handleProjectClick("Lisbon Chairs Shop")}
               >
                 <i className="bi bi-globe2"></i>
                 <span className="ms-3">Lisbon Chairs Shop</span>
@@ -86,7 +86,7 @@ const PortfolioOffCanvas = () => {
                 className="list-group-item list-group-item-danger list-group-item-action mb-3 mb-md-4 rounded"
                 target="_blank"
                 rel="noreferrer"
-                onClick={() => handleProjectClick("Business Directory website")}
+                onClick={() => handleProjectClick("Business Directory")}
               >
                 <i className="bi bi-globe2"></i>
                 <span className="ms-3">Business Directory</span>
@@ -95,7 +95,7 @@ const PortfolioOffCanvas = () => {
                 className="list-group-item list-group-item-danger list-group-item-action mb-3 mb-md-4 rounded"
                 target="_blank"
                 rel="noreferrer"
-                onClick={() => handleProjectClick("Bankist website")}
+                onClick={() => handleProjectClick("Bankist")}
               >
                 <i className="bi bi-globe2"></i>
                 <span className="ms-3">Bankist</span>
@@ -104,7 +104,7 @@ const PortfolioOffCanvas = () => {
                 className="list-group-item list-group-item-danger list-group-item-action mb-3 mb-md-4 rounded"
                 target="_blank"
                 rel="noreferrer"
-                onClick={() => handleProjectClick("uHost website")}
+                onClick={() => handleProjectClick("uHost")}
               >
                 <i className="bi bi-globe2"></i>
                 <span className="ms-3">uHost</span>

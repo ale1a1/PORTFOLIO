@@ -70,7 +70,7 @@ const PortfolioOffCanvas = () => {
                 rel="noreferrer"
                 onClick={() => handleProjectClick("Omnifood")}
               >
-                <i className="bi bi-globe2"> </i>
+                <i className="bi bi-globe2"></i>
                 <span className="ms-3">Omnifood</span>
               </div>
               <div

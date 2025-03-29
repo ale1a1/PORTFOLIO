@@ -22,7 +22,7 @@ const projects = [
     description: "'<i>Find Users</i>' is a personal project that allows users to create profiles, browse a user list, retrieve details, and save favorites, designed as a boilerplate prototype for user directory and profile management functionality.",
     technologies: "The <b>Frontend</b> is built using <b>React</b>, <b>Html</b>, <b>Bootstrap</b>, <b>CSS</b>, and <b>JavaScript</b>, and it is hosted on <b>Netlify</b>.<br>The <b>Backend</b> is built using <b>Node.js</b> and <b>Express.js</b>, providing a robust and scalable framework for handling HTTP requests and routing.<br> <b>Cors</b> and <b>Body-Parser</b> middleware are used to enable secure cross-origin requests and parse incoming request bodies. <br><b>MySQL Workbench</b> was utilized for designing and managing the relational database, which is hosted on <b>Back4App</b> to ensure reliable and scalable data storage. <br>The architecture follows a <b>RESTful API</b> approach for efficient data handling and user management.",
     testInfo: 'Test credentials are available in the login section for users who prefer not to create a profile.',
-    url:'https://find-users-app.netlify.app/'
+    url:'https://find-users-application.netlify.app/'
   },
   {
     name: "Omnifood",

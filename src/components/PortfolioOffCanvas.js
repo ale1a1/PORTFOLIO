@@ -30,12 +30,12 @@ const PortfolioOffCanvas = () => {
             aria-label="Close"
           ></button>
         </div>
-        <div className="offcanvas-body m-auto mt-md-5 mt-lg-0 portfolio-body">
-          <div className="card card-body shadow bg-dark2-transparent border border-secondary">
-            <h5>Have a look at my work 😊</h5>
-            <p className="mb-2 mt-2">
-            Some projects are my own work, while others were created by coding along with tutors in the online courses I followed.
-            </p>
+        <div className="offcanvas-body m-auto mt-md-5 mt-lg-0 portfolio-body" style={{ width: "98%" }}>
+          <div className="card card-body shadow bg-dark2-transparent border border-secondary mb-4">
+            <h5>Personal Projects</h5>
+            {/* <p className="mb-0 mt-2">
+            These projects are my own designs and creations.
+            </p> */}
             <ul className="list-group mt-4">
               <div
                 className="list-group-item list-group-item-danger list-group-item-action mb-3 mb-md-4 rounded"
@@ -63,16 +63,7 @@ const PortfolioOffCanvas = () => {
               >
                 <i className="bi bi-globe2"></i>
                 <span className="ms-3">Find Users</span>
-              </div>
-              <div               
-                className="list-group-item list-group-item-danger list-group-item-action mb-3 mb-md-4 rounded"
-                target="_blank"
-                rel="noreferrer"
-                onClick={() => handleProjectClick("Omnifood")}
-              >
-                <i className="bi bi-globe2"></i>
-                <span className="ms-3">Omnifood</span>
-              </div>
+              </div>         
               <div
                 className="list-group-item list-group-item-danger list-group-item-action mb-3 mb-md-4 rounded"
                 target="_blank"
@@ -81,7 +72,24 @@ const PortfolioOffCanvas = () => {
               >
                 <i className="bi bi-globe2"></i>
                 <span className="ms-3">Lisbon Chairs Shop</span>
-              </div>
+              </div>         
+            </ul>
+          </div>
+          <div className="card card-body shadow bg-dark2-transparent border border-secondary">
+            <h5>Course Projects</h5>
+            {/* <p className="mb-0 mt-2">
+            The following projects were built by following along with tutors in online courses I took.
+            </p> */}
+            <ul className="list-group mt-4">           
+              <div               
+                className="list-group-item list-group-item-danger list-group-item-action mb-3 mb-md-4 rounded"
+                target="_blank"
+                rel="noreferrer"
+                onClick={() => handleProjectClick("Omnifood")}
+              >
+                <i className="bi bi-globe2"></i>
+                <span className="ms-3">Omnifood</span>
+              </div>       
               <div
                 className="list-group-item list-group-item-danger list-group-item-action mb-3 mb-md-4 rounded"
                 target="_blank"

@@ -7,7 +7,7 @@ const ProjectModal = ({ project, onClose }) => {
 const projects = [
   {
     name: "Quiz Game",
-    description: "'<i>Quiz Game</i>' is a personal project that allows users to play a 10-question quiz across a wide variety of categories, either as a guest or by logging in with their Google account. <br> The game tracks scores for logged-in users, displaying their progress on a leaderboard and within a personal scores section.",
+    description: "'<i>Quiz Game</i>' allows users to play a 10-question quiz across a wide variety of categories, either as a guest or by logging in with their Google account. <br> The game tracks scores for logged-in users, displaying their progress on a leaderboard and within a personal scores section.",
     technologies: "The app is built with <b>Vue 3</b>, <b>HTML</b>, <b>TypeScript</b>, and <b>CSS</b>, utilizing a <b>public API</b> for retrieving questions and <b>Firebase</b> for database management and Google authentication. <br> It is hosted on <b>Netlify</b>, providing easy access and reliable performance.",
     url: 'https://play-quiz-game-now.netlify.app/'
   },
@@ -18,12 +18,21 @@ const projects = [
     "url": "https://www.susinnu.it"
   },   
   {
-    name: "Find Users",
-    description: "'<i>Find Users</i>' is a personal project that allows users to create profiles, browse a user list, retrieve details, and save favorites, designed as a boilerplate prototype for user directory and profile management functionality.",
-    technologies: "The <b>Frontend</b> is built using <b>React</b>, <b>Html</b>, <b>Bootstrap</b>, <b>CSS</b>, and <b>JavaScript</b>, and it is hosted on <b>Netlify</b>.<br>The <b>Backend</b> is built using <b>Node.js</b> and <b>Express.js</b>, providing a robust and scalable framework for handling HTTP requests and routing.<br> <b>Cors</b> and <b>Body-Parser</b> middleware are used to enable secure cross-origin requests and parse incoming request bodies. <br><b>MySQL Workbench</b> was utilized for designing and managing the relational database, which is hosted on <b>Back4App</b> to ensure reliable and scalable data storage. <br>The architecture follows a <b>RESTful API</b> approach for efficient data handling and user management.",
-    testInfo: 'Test credentials are available in the login section for users who prefer not to create a profile.',
-    url:'https://find-users-application.netlify.app/'
-  },
+    "name": "Find Users",
+    "description": "'<i>Find Users</i>' allows users to create profiles, browse a user list, retrieve details, and save favorites. It is designed as a boilerplate prototype for user directory and profile management functionality.",
+    "technologies": 
+        "<ul style='list-style: disc; padding-left: 20px; margin: 0;'>"
+      + "<li style='margin-top:3px; margin-bottom:3px; font-size: 1.1rem;'>Vue 3 <img style='margin-left:7px;' src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg' alt='Vue 3' width='20'></li>"
+      + "<li style='margin-top:3px; margin-bottom:3px; font-size: 1.1rem;'>Nuxt 3 <img style='margin-left:7px;' src='https://nuxt.com/icon.png' alt='Nuxt 3' width='20'></li>"
+      + "<li style='margin-top:3px; margin-bottom:3px; font-size: 1.1rem;'>HTML <img style='margin-left:7px;' src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg' alt='HTML' width='20'></li>"
+      + "<li style='margin-top:3px; margin-bottom:3px; font-size: 1.1rem;'>Tailwind CSS <img style='margin-left:7px;' src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg' alt='Tailwind CSS' width='20'></li>"
+      + "<li style='margin-top:3px; margin-bottom:3px; font-size: 1.1rem;'>TypeScript <img style='margin-left:7px;' src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg' alt='TypeScript' width='20'></li>"
+      + "<li style='margin-top:3px; margin-bottom:3px; font-size: 1.1rem;'>Firebase <img style='margin-left:7px;' src='https://firebase.google.com/downloads/brand-guidelines/SVG/logo-logomark.svg' alt='Firebase' width='20'></li>"      
+      + "<li style='margin-top:3px; margin-bottom:3px; font-size: 1.1rem;'>Netlify <img style='margin-left:7px;' src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/netlify/netlify-original.svg' alt='Netlify' width='20'></li>"
+      + "</ul>",
+    "testInfo": null,
+    "url": "https://find-users-application.netlify.app/"
+  },    
   {
     name: "Omnifood",
     description: "'<i>Omifood</i>' was developed as part of an HTML, JavaScript, and CSS course, demonstrating the basics of building a dynamic, user-friendly website. <br> It is a prototype for a meal subscription service designed to deliver personalized, healthy meals to customers' doors every day.",
@@ -33,7 +42,7 @@ const projects = [
   },
   {
     name: "Lisbon Chairs Shop",
-    description: "'<i>Lisbon Chairs Shop</i>' is a personal project and a conceptual e-commerce website showcasing a collection of meticulously designed, handcrafted chairs that combine beauty, comfort, and sustainability. <br>The website demonstrates a user-friendly online shopping experience, and it serves as a portfolio piece, showcasing modern web technologies and design skills.",
+    description: "'<i>Lisbon Chairs Shop</i>' is conceptual e-commerce website showcasing a collection of meticulously designed, handcrafted chairs that combine beauty, comfort, and sustainability. <br>The website demonstrates a user-friendly online shopping experience, and it serves as a portfolio piece, showcasing modern web technologies and design skills.",
     technologies: "The app is built using <b>React</b>, <b>JavaScript</b>, <b>HTML</b> and <b>CSS</b>, and it is hosted on <b>Netlify</b>.",
     testInfo: null,
     url:'https://lisbon-chairs-shop.netlify.app/'
@@ -113,7 +122,7 @@ useEffect(() => {
                 }}></p>
             </div>
             <div> 
-              <h4>Technologies Used</h4>
+              <h4>Technologies</h4>
               <p dangerouslySetInnerHTML={{
                   __html: selectedProject ? selectedProject.technologies : "No techologies available"
                 }}></p>

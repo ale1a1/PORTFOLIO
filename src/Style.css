@@ -84,6 +84,40 @@ footer {
   margin-top: 2rem;
 }
 
+.open-project-btn {
+  position: relative;
+  border: 2px solid transparent;
+  padding: 10px 20px;
+  font-size: 1rem;
+  text-align: center;
+  transition: border-color 0.3s ease;
+}
+
+.open-project-btn:hover {
+  border-color: #28a745; /* Green border color */
+}
+
+.open-project-btn:focus {
+  outline: none; /* Remove outline when focused */
+}
+
+.open-project-btn {
+  animation: pulse-border 2s infinite;
+}
+
+@keyframes pulse-border {
+  0% {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #28a745; /* Green border color */
+  }
+  100% {
+    border-color: transparent;
+  }
+}
+
+
 
 
 /* ///////////////////////////////////////////////// all classes above are currently in use!!!!! /////////////////////////////////////////////// */
@@ -234,9 +268,9 @@ footer {
     max-width: 20vw;
   }
 
-  .portfolio-body {
+  /* .portfolio-body {
     margin-top: 3rem !important;
-  }
+  } */
 
   header h1, h2 {
     font-size: 3rem !important;

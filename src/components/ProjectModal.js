@@ -22,13 +22,13 @@ const projects = [
     "description": "'<i>Find Users</i>' allows users to create profiles, browse a user list, retrieve details, and save favorites. It is designed as a boilerplate prototype for user directory and profile management functionality.",
     "technologies": 
         "<ul style='list-style: disc; padding-left: 20px; margin: 0;'>"
-      + "<li style='margin-top:3px; margin-bottom:3px; font-size: 1.1rem;'>Vue 3 <img style='margin-left:7px;' src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg' alt='Vue 3' width='20'></li>"
-      + "<li style='margin-top:3px; margin-bottom:3px; font-size: 1.1rem;'>Nuxt 3 <img style='margin-left:7px;' src='https://nuxt.com/icon.png' alt='Nuxt 3' width='20'></li>"
-      + "<li style='margin-top:3px; margin-bottom:3px; font-size: 1.1rem;'>HTML <img style='margin-left:7px;' src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg' alt='HTML' width='20'></li>"
-      + "<li style='margin-top:3px; margin-bottom:3px; font-size: 1.1rem;'>Tailwind CSS <img style='margin-left:7px;' src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg' alt='Tailwind CSS' width='20'></li>"
-      + "<li style='margin-top:3px; margin-bottom:3px; font-size: 1.1rem;'>TypeScript <img style='margin-left:7px;' src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg' alt='TypeScript' width='20'></li>"
-      + "<li style='margin-top:3px; margin-bottom:3px; font-size: 1.1rem;'>Firebase <img style='margin-left:7px;' src='https://firebase.google.com/downloads/brand-guidelines/SVG/logo-logomark.svg' alt='Firebase' width='20'></li>"      
-      + "<li style='margin-top:3px; margin-bottom:3px; font-size: 1.1rem;'>Netlify <img style='margin-left:7px;' src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/netlify/netlify-original.svg' alt='Netlify' width='20'></li>"
+      + "<li style='margin-top:5px; margin-bottom:5px; font-size: 1.1rem;'>Vue 3 <img style='margin-left:7px;' src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg' alt='Vue 3' width='20'></li>"
+      + "<li style='margin-top:5px; margin-bottom:5px; font-size: 1.1rem;'>Nuxt 3 <img style='margin-left:7px;' src='https://nuxt.com/icon.png' alt='Nuxt 3' width='20'></li>"
+      + "<li style='margin-top:5px; margin-bottom:5px; font-size: 1.1rem;'>HTML <img style='margin-left:7px;' src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg' alt='HTML' width='20'></li>"
+      + "<li style='margin-top:5px; margin-bottom:5px; font-size: 1.1rem;'>Tailwind CSS <img style='margin-left:7px;' src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg' alt='Tailwind CSS' width='20'></li>"
+      + "<li style='margin-top:5px; margin-bottom:5px; font-size: 1.1rem;'>TypeScript <img style='margin-left:7px;' src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg' alt='TypeScript' width='20'></li>"
+      + "<li style='margin-top:5px; margin-bottom:5px; font-size: 1.1rem;'>Firebase <img style='margin-left:7px;' src='https://firebase.google.com/downloads/brand-guidelines/SVG/logo-logomark.svg' alt='Firebase' width='20'></li>"      
+      + "<li style='margin-top:5px; margin-bottom:5px; font-size: 1.1rem;'>Netlify <img style='margin-left:7px;' src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/netlify/netlify-original.svg' alt='Netlify' width='20'></li>"
       + "</ul>",
     "testInfo": null,
     "url": "https://find-users-application.netlify.app/"

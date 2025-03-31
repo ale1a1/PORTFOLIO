@@ -115,13 +115,13 @@ useEffect(() => {
             ></button>
           </div>
           <div className="modal-body">
-            <div>
+            <div className="mt-2">
               <h4>Description</h4>
               <p dangerouslySetInnerHTML={{
                   __html: selectedProject ? selectedProject.description : "No description available"
                 }}></p>
             </div>
-            <div> 
+            <div className="mt-4"> 
               <h4>Technologies</h4>
               <p dangerouslySetInnerHTML={{
                   __html: selectedProject ? selectedProject.technologies : "No techologies available"

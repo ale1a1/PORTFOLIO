@@ -65,6 +65,10 @@ footer {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
+.icon-hover:hover {
+  color: white !important
+}
+
 /* ////////////////////////////// Project modal ///////////////////////////////////////////////////////////////////////////////// */
 
 .list-group-item {cursor: pointer;}
@@ -102,7 +106,7 @@ footer {
 }
 
 .open-project-btn {
-  animation: pulse-border 2s infinite;
+  animation: pulse-border 1.5s infinite;
 }
 
 @keyframes pulse-border {

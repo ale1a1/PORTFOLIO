@@ -23,7 +23,7 @@ const PortfolioOffCanvas = () => {
         aria-labelledby="offcanvasPortfolioLabel"
       >
         <div className="offcanvas-header">
-          <h1 className="offcanvas-title text-danger">Portfolio</h1>
+          <h1 className="offcanvas-title text-danger ms-2">Portfolio</h1>
           <button
             className="btn-close btn-close-white"
             data-bs-dismiss="offcanvas"

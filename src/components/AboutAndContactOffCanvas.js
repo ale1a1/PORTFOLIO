@@ -95,14 +95,14 @@ const AboutAndContactOffCanvas = () => {
                     Git, GitHub, GitLab
                   </div>
                 </li>   
-                {/* <li className="d-flex flex-column mb-2">
+                <li className="d-flex flex-column mb-2">
                   <div className="text-decoration-underline">
-                    IDE: 
+                    Methodologies: 
                   </div>
                   <div className="">
-                    VS Code
+                    AgilePM
                   </div>
-                </li>              */}
+                </li>              
               </ul>
             </div>
           </div>
